@@ -13,7 +13,7 @@ A repository sharing the panorama of the methodology literature on Transformer *
 
 ## Overview of Survey
 
-For a clear taxnomoy and more insights about the methodology, you can refer to our **survey**: [Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2311.12351) with a overview shown below
+For a clear taxonomy and more insights about the methodology, you can refer to our **survey**: [Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2311.12351) with a overview shown below
 
 (*Note: this is currently the draft version, with a few more work to do about some writing and the appendix*)
 
