@@ -3,7 +3,11 @@
 
 <p align="center">
   <img src="../../imgs/sparse_attn.png" width="900"></img>
+  <div style="text-align: center">
+  <figcaption>
   <strong>Examples of Sparse Attention Patterns</strong>
+  </figcaption>
+  </div>
 </p>
 
 

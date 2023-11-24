@@ -4,7 +4,11 @@
 
 <p align="center">
   <img src="../../imgs/local_attn.png" width="900"></img>
+  <div style="text-align: center">
+  <figcaption>
   <strong>Examples of Local Attention Patterns</strong>
+  </figcaption>
+  </div>
 </p>
     
 
