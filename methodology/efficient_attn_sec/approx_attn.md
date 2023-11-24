@@ -42,6 +42,7 @@ O &:= \left(D^{-1}\times\mathcal{K}(Q, K)\right)\times V\\
     &\xlongequal[]{causal} D^{-1}\times \xi_{\mathbf 1_L}(\widetilde Q, \widetilde K, V)
 \end{align}
 $$
+
 $$
 \begin{align}
 D &:=\mathrm{diag}\left[\mathcal{K}(Q, K) \times \mathbf 1_L\right]\\
