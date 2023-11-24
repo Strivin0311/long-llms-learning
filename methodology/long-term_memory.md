@@ -2,7 +2,7 @@
 *Here's some resources about Long-Term Memory*
 
 <p align="center">
-    <img src="../imgs/long-term_memory.png" width="900"></img>
+    <img src="../imgs/long-term_memory.png" width="400"></img>
     <p align="center">
         <strong>Taxonomy of Long-Term Memory</strong>
     </p>

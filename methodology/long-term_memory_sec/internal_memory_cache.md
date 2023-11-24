@@ -8,13 +8,13 @@ Recalling the temporality of natural language representations instead of the suc
 
 $$
 \begin{align}
-    & Q^{n}_{t}, \widetilde K^{n}_{t}, \widetilde V^{n}_{t} := X^{n}_{t}W_q, \widetilde X^{n}_{t}W_k,\widetilde X^{n}_{t}W_v,\\
-    &where\quad X^{n}_{t} := O^{n-1}_{t},  \widetilde X^{n}_{t} := \left[ \mathrm{Mem}(n,t,..) \circ O^{n-1}_{t}  \right]
+    & Q_{t}^{n}, \widetilde K_{t}^{n}, \widetilde V_{t}^{n} := X_t^{n}W_q, \widetilde X_t^{n}W_k,\widetilde X_{t}^{n}W_v,\\
+    &where\quad X_{t}^{n} := O_{t}^{n-1},  \widetilde X_{t}^{n} := \left[ \mathrm{Mem}(n,t,..) \circ O_{t}^{n-1}  \right]
 \end{align}
 $$
 
 
-To facilitate later equations, we assume that each segment has the same length $l$, and the models consist of $N$ layers of transformer blocks. The notation $[\circ]$ represents the concatenation operation along the length dimension. It’s worth noting that the variables in the memory cache $Mem$ are usually detached from the computation graph, eliminating the need for gradient computation, which we denote with a hat accent, such as $\hat{X}$.
+To facilitate later equations, we assume that each segment has the same length $l$, and the models consist of $N$ layers of transformer blocks. The notation $[\circ]$ represents the concatenation operation along the length dimension. It’s worth noting that the variables in the memory cache $Mem$ are usually detached from the computation graph, eliminating the need for gradient computation, which we denote with a hat accent, such as $\widehat{X}$.
 
 
 ### Table of Contents
@@ -52,8 +52,8 @@ citation:
 
 $$
 \begin{align}
-    & \mathrm{Mem}_{Comp}(n,t,m_1,m_2,c) := \left[\mathrm{Mem}_{f_c} \circ  \mathrm{Mem}_{XL}(n,t,m_1)\right]\\
-    &where\quad \mathrm{Mem}_{f_c} := \left[ f_c(\widehat O^{n-1}_{t-m_1-m_2}) \circ..\circ  f_c(\widehat O^{n-1}_ {t-m_1-1})\right]\notag
+    &\mathrm{Mem_{Comp}}(n,t,m_1,m_2,c) := \left[\mathrm{Mem_{f_c}} \circ  \mathrm{Mem_{XL}}(n,t,m_1)\right]\\
+    &where\quad \mathrm{Mem_{f_c}} := \left[ f_c(\widehat O_{t-m_1-m_2}^{n-1}) \circ..\circ  f_c(\widehat O_{t-m_1-1}^{n-1})\right]
 \end{align}
 $$
 
@@ -75,7 +75,7 @@ citation:
 
 $$
 \begin{align}
-    \mathrm{Mem}_{XL}(n,t,m) := \left[\widehat O^{n-1}_{t-m} \circ..\circ \widehat O^{n-1}_{t-1}\right]
+    \mathrm{Mem_{XL}}(n,t,m) := \left[\widehat{O_{t-m}^{n-1}} \circ..\circ \widehat{O_{t-1}^{n-1}}\right]
 \end{align}
 $$
 
@@ -130,7 +130,7 @@ citation:
 
 $$
  \begin{align}
-    & \mathrm{Mem}_{Ernie}(n,t) := \widehat O^{n}_{t-1}
+    & \mathrm{Mem_{Ernie}}(n,t) := \widehat O^{n}_{t-1}
 \end{align}
 $$
 
@@ -201,8 +201,8 @@ citation:
 
 $$
 \begin{align}
-    & (\widetilde K^{N}_t,\widetilde V^{N}_t) := \left[ \mathrm{retr}(Q^{N}_t,m,k) \circ (K^{N}_t,V^{N}_t) \right],\\
-    & where\quad \mathrm{retr}(Q^{N}_t,m,k) := \mathrm{kNN}\left[Q^{N}_t,\{(K^{N}_{t-\tau},V^{N}_{t-\tau})\}_{\tau=1}^{m}\right]
+    & (\widetilde K_t^{N},\widetilde V_t^{N}) := \left[ \mathrm{retr}(Q_t^{N},m,k) \circ (K_t^{N},V_t^{N}) \right],\\
+    & where\quad \mathrm{retr}(Q_t^{N},m,k) := \mathrm{kNN}\left[Q_t^{N},\{(K_{t-\tau}^{N},V_{t-\tau}^{N})\}_{\tau=1}^{m}\right]
 \end{align}
 $$
 
