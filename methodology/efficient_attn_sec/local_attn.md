@@ -14,6 +14,8 @@ The traditional attention mechanism is characterized by its global and full atte
 
 Considering the significance of local context in certain applications, various approaches have been introduced to implement local attention mechanisms in recent years. These mechanisms restrict each token’s attention to its neighboring tokens instead of all tokens, and the variations among these approaches arise from the heuristic criteria to determine who qualifies as a token’s neighbor, as depicted in the picture above.
 
+
+
 ### Table of Contents
 * [Block-wise Attention](#block-wise-attention)
 * [Sliding Window Attention](#sliding-window-attention)
