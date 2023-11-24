@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="../../imgs/local_attn.png"></img>
+  <img src="../../imgs/local_attn.png" width="900"></img>
   <strong>Examples of Local Attention Patterns</strong>
 </p>
     
