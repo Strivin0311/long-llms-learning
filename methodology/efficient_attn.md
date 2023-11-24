@@ -2,9 +2,10 @@
 *Here're some resources about Efficient Attention*
 
 <p align="center">
-    <img src="../imgs/efficient_attn.png"></img>
-    <strong>Taxonomy of Efficient Attention</strong>
-    
+    <img src="../imgs/efficient_attn.png" width="900"></img>
+    <p align="center">
+        <strong>Taxonomy of Efficient Attention</strong>
+    </p>
 </p>
 
 ### Intro
@@ -101,3 +102,9 @@ citation:
   year={2021}
 }
 ```
+    
+
+
+
+
+
