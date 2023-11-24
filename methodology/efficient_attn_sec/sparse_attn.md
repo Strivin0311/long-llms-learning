@@ -3,11 +3,9 @@
 
 <p align="center">
   <img src="../../imgs/sparse_attn.png" width="900"></img>
-  <div style="text-align: center">
-  <figcaption>
-  <strong>Examples of Sparse Attention Patterns</strong>
-  </figcaption>
-  </div>
+  <p align="center">
+    <strong>Examples of Sparse Attention Patterns</strong>
+  </p>
 </p>
 
 
@@ -15,7 +13,7 @@
 
 While some approaches have introduced heuristics for achieving locality and hierarchical structure within self-attention, another direction explores the sparsity patterns inherent in full attention matrices. 
 
-These methods aim to introduce a sparse attention mask, denoted as $M_{\mathcal{S}}$ , where each row i assigns a sparse set of indices $\mathcal{S}_i \subseteq \{j|j < i\}$ that the i-th token attends to. These sparsity-based attention mechanisms offer both computational efficiency and the ability to capture global context information. The figure above provides a visualization of these sparse attention mechanisms.
+These methods aim to introduce a sparse attention mask, denoted as $M_{\mathcal{S}}$ , where each row i assigns a sparse set of indices $\mathcal{S}_i \subseteq \lbrace j|j < i \rbrace$ that the i-th token attends to. These sparsity-based attention mechanisms offer both computational efficiency and the ability to capture global context information. The figure above provides a visualization of these sparse attention mechanisms.
 
 
 ### Table of Contents

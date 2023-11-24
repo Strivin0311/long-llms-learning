@@ -12,12 +12,12 @@ In addition to heuristic approaches aimed at restricting full attention computat
 
 Prior to delving into the literature, we introduce the following definitions to establish a unified representantion of mathematical symbols within the equations below.
 
-* *Definition 1 (Attention Kernel):* We define a simplified version of the attention kernel computation below (*omitted the mask $M$, and other projection operations*), where $P$ denotes the unnormalized relevance matrix for each pair of $\bold q, \bold k$, $A$ is the row-wise normalized and scaled attention matrix and $O$ is the output hidden states.
+* *Definition 1 (Attention Kernel):* We define a simplified version of the attention kernel computation below (*omitted the mask $M$, and other projection operations*), where $P$ denotes the unnormalized relevance matrix for each pair of $\mathbf q, \mathbf k$, $A$ is the row-wise normalized and scaled attention matrix and $O$ is the output hidden states.
 
 $$
 \begin{align}
-P := Q\times K^{\mathrm{T}}, \;\;
-A := \mathrm{softmax}[\cfrac{P}{\sqrt{d_k}}], \;\;
+P := Q\times K^{\mathrm{T}}, \quad
+A := \mathrm{softmax}[\cfrac{P}{\sqrt{d_k}}], \quad
     O := A\times V
 \end{align}
 $$
@@ -25,28 +25,28 @@ $$
 * *Definition 2 (Causal Mask Function):* Note that we have not distinguished whether the methods are employed for BERT-like encoder-only LLMs or GPT-like decoder-only LLMs in previous sections since most of them can be trivially transferred from the BERT setting to the GPT setting with a causal attention mask. However, the casual mask is often non-trivial for many approximation strategies. 
   
 
-  So to facilitate later discussions, we first define a general weighted causal function $\xi_{\bold w}$ in Eq.$(2)$, where $\bold w \in \mathbb{R}^L$ represents a weights vector for each row. This function will substitute the causal attention mask operation thus, we 
+  So to facilitate later discussions, we first define a general weighted causal function $\xi_{\mathbf w}$ in Equation below, where $\mathbf w \in \mathbb{R}^L$ represents a weights vector for each row. This function will substitute the causal attention mask operation.
 
 $$
 \begin{align}
-\xi_{\bold w}(Q,K,V) := \left[w_i\cdot \bold  q_i^{\mathrm{T}} \sum\limits_{j=1}^i \bold k_j \bold{v}_j^{\mathrm{T}} \right]_{i=1}^L
+    \xi_{\mathbf w}(Q,K,V) := \left[ w_i\cdot\mathbf{q_i}^{\mathrm{T}}\sum\limits_{j=1}^i\mathbf{k_j}\mathbf{v_j}^{\mathrm{T}}\right]_{i=1}^L
 \end{align}
 $$
 
-* *Definition 3 (Generalized Kernelizable Attention):* The standard attention kernel computation can be generalized to kernelizable as below, where the kernel function $\mathcal{K}(\cdot,\cdot): \mathbb{R}^{d}\times \mathbb{R}^{d}\rightarrow R_+$ is applied row-wise to each pair of $\bold q_i, \bold k_j$ in $Q,K$, and $D$ is the normalization factor. From this view, the vanilla softmax attention just implements a specific kernel function as $\mathcal{K}(Q,K) = \exp(\frac{QK^{\mathrm{T}}}{\sqrt{d_k}})$, which explicitly derives a $L\times L$ attention matrix. But if we carefully choose another kernel function to be factorizable as the condition in Eq.$(4),(7)$ below, then simply applying the associative property, we can compute matrix multiplication of $K,V$ and $K, \bold 1_L$ ahead with lower complexity $O(Ld^2)$.
+* *Definition 3 (Generalized Kernelizable Attention):* The standard attention kernel computation can be generalized to kernelizable as below, where the kernel function $\mathcal{K}(\cdot,\cdot): \mathbb{R}^{d}\times \mathbb{R}^{d}\rightarrow R_+$ is applied row-wise to each pair of $\mathbf q_i, \mathbf k_j$ in $Q,K$, and $D$ is the normalization factor. From this view, the vanilla softmax attention just implements a specific kernel function as $\mathcal{K}(Q,K) = \exp(\frac{QK^{\mathrm{T}}}{\sqrt{d_k}})$, which explicitly derives a $L\times L$ attention matrix. But if we carefully choose another kernel function to be factorizable as the condition in the second step of the following equations, then simply applying the associative property, we can compute matrix multiplication of $K,V$ and $K, \mathbf 1_L$ ahead with lower complexity $O(Ld^2)$.
 
 $$
 \begin{align}
 O &:= \left(D^{-1}\times\mathcal{K}(Q, K)\right)\times V\\
     &\xlongequal[associative]{\mathcal{K}(Q, K)=\widetilde Q\times \widetilde K^\mathrm{T}} D^{-1}\times\widetilde Q \times \left(\widetilde K^\mathrm{T} \times V\right) \\
-    &\xlongequal[]{causal} D^{-1}\times \xi_{\bold 1_L}(\widetilde Q, \widetilde K, V)
+    &\xlongequal[]{causal} D^{-1}\times \xi_{\mathbf 1_L}(\widetilde Q, \widetilde K, V)
 \end{align}
 $$
 $$
 \begin{align}
-D &:=\mathrm{diag}\left[\mathcal{K}(Q, K) \times \bold 1_L\right]\\
-&\xlongequal[associative]{\mathcal{K}(Q, K)=\widetilde Q\times \widetilde K^\mathrm{T}} \mathrm{diag}\left[\widetilde Q \times\left(\widetilde K\times \bold 1_L\right)\right]\\
-&\xlongequal[]{causal} \mathrm{diag}\left[ \xi_{\bold 1_L}(\widetilde Q, \widetilde K, \bold 1_L)\right]
+D &:=\mathrm{diag}\left[\mathcal{K}(Q, K) \times \mathbf 1_L\right]\\
+&\xlongequal[associative]{\mathcal{K}(Q, K)=\widetilde Q\times \widetilde K^\mathrm{T}} \mathrm{diag}\left[\widetilde Q \times\left(\widetilde K\times \mathbf 1_L\right)\right]\\
+&\xlongequal[]{causal} \mathrm{diag}\left[ \xi_{\mathbf 1_L}(\widetilde Q, \widetilde K, \mathbf 1_L)\right]
 \end{align}
 $$
 
@@ -90,9 +90,9 @@ citation:
 
 $$
 \begin{align}
-&A_{s} := \mathrm{elu}\left( \frac{Q_s \times K^{\mathrm{T}}}{\sqrt{d_k}} \right), \quad\widetilde S := A_{s}\times V, \;\;where\;\; Q_s := S\times W_q\\
-        &A_{u} := \mathrm{softmax}\left( \xi_{\bold w_{inv}}(Q, V, A_{s}^{\mathrm{T}}) \right),\;
-        \widetilde O := \xi_{\bold w_{inv}}(A_{u}, A_{s}^{\mathrm{T}}, V) ,\;\;where\;\; \bold w_{inv} := \left[ i^{-1} \right]_{i=1}^L\
+&A_{s} := \mathrm{elu}\left( \frac{Q_s \times K^{\mathrm{T}}}{\sqrt{d_k}} \right), \quad\widetilde S := A_{s}\times V, \quad where\quad Q_s := S\times W_q\\
+        &A_{u} := \mathrm{softmax}\left( \xi_{\mathbf w_{inv}}(Q, V, A_{s}^{\mathrm{T}}) \right),\;
+        \widetilde O := \xi_{\mathbf w_{inv}}(A_{u}, A_{s}^{\mathrm{T}}, V) ,\quad where\quad \mathbf w_{inv} := \left[ i^{-1} \right]_{i=1}^L\
 \end{align}
 $$
 
@@ -132,8 +132,8 @@ citation:
 
 $$
 \begin{align}
-&\mathcal{K}_{Pe}(\bold q,\bold k) := \mathbb{E}_{\omega}\left[\varphi_{Pe}(\bold q)\times \varphi_{Pe}(\bold k)^\mathrm{T}\right], \\
-&where\;\;\; \varphi_{Pe}(\bold x) = \frac{h(\bold x)}{\sqrt{m}} \left[b_1(\omega_1^{\mathrm{T}}\bold x),..,b_1(\omega_m^{\mathrm{T}}\bold x),.., b_l(\omega_1^{\mathrm{T}}\bold x),..,b_l(\omega_m^{\mathrm{T}}\bold x) \right]
+&\mathcal{K_{Pe}}(\mathbf q,\mathbf k) := \mathbb{E_{\omega}}\left[ \varphi_{Pe}(\mathbf q)\times \varphi_{Pe}(\mathbf k){^\mathrm{T}} \right], \\
+&where\quad \phi_{Pe}(\mathbf x) = \frac{h(\mathbf x)}{\sqrt{m}} \left[b_1(\omega_1^{\mathrm{T}}\mathbf x),..,b_1(\omega_m^{\mathrm{T}}\mathbf x),.., b_l(\omega_1^{\mathrm{T}}\mathbf x),..,b_l(\omega_m^{\mathrm{T}}\mathbf x) \right]
 \end{align}
 $$
 
@@ -154,7 +154,7 @@ citation:
 
 $$
 \begin{align}
-\mathcal{K}_{Li}(\bold q,\bold k) := \varphi_{Li}(\bold q)\times \varphi_{Li}(\bold k)^\mathrm{T}, \;\;where\;\; \varphi_{Li}(\bold x) = \mathrm{elu}(\bold x) + 1
+\mathcal{K}_{Li}(\mathbf q,\mathbf k) := \varphi_{Li}(\mathbf q)\times \varphi_{Li}(\mathbf k)^\mathrm{T}, \quad where\quad \varphi_{Li}(\mathbf x) = \mathrm{elu}(\mathbf x) + 1
 \end{align}
 $$
 
