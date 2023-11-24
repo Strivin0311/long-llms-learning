@@ -161,51 +161,6 @@ citation:
 }
 ```
 
-#### YaRN: Efficient Context Window Extension of Large Language Models [`READ`]
 
-paper link: [here](https://arxiv.org/pdf/2309.00071)
-
-citation:
-```bibtex
-@article{peng2023yarn,
-  title={Yarn: Efficient context window extension of large language models},
-  author={Peng, Bowen and Quesnelle, Jeffrey and Fan, Honglu and Shippole, Enrico},
-  journal={arXiv preprint arXiv:2309.00071},
-  year={2023}
-}
-```
-
-#### CLEX: Continuous Length Extrapolation for Large Language Models [`READ`]
-
-paper link: [here](https://arxiv.org/pdf/2310.16450)
-
-citation:
-```bibtex
-@article{chen2023clex,
-  title={CLEX: Continuous Length Extrapolation for Large Language Models},
-  author={Chen, Guanzheng and Li, Xin and Meng, Zaiqiao and Liang, Shangsong and Bing, Lidong},
-  journal={arXiv preprint arXiv:2310.16450},
-  year={2023}
-}
-```
-
-
-### Others
-
-#### Exploring length generalization in large language models [`READ`]
-
-paper link: [here](https://proceedings.neurips.cc/paper_files/paper/2022/file/fb7451e43f9c1c35b774bcfad7a5714b-Paper-Conference.pdf)
-
-citation: 
-```bibtex
-@article{anil2022exploring,
-  title={Exploring length generalization in large language models},
-  author={Anil, Cem and Wu, Yuhuai and Andreassen, Anders and Lewkowycz, Aitor and Misra, Vedant and Ramasesh, Vinay and Slone, Ambrose and Gur-Ari, Guy and Dyer, Ethan and Neyshabur, Behnam},
-  journal={Advances in Neural Information Processing Systems},
-  volume={35},
-  pages={38546--38556},
-  year={2022}
-}
-```
     
     
