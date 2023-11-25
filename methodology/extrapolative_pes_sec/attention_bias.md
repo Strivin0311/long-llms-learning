@@ -108,7 +108,7 @@ citation:
 
 $$
   \begin{align}
-      & \mathcal{B}_{ALiBi}^{(h)}(i,j) := -\lambda^{(h)}\cdot |i-j|, \;\;\lambda^{(h)} := \cfrac{1}{2^h} \;or\; \cfrac{1}{2^{h/2}}
+      & \mathcal{B}_{ALiBi}^{(h)}(i,j) := -\lambda^{(h)}\cdot |i-j|, \quad\lambda^{(h)} := \cfrac{1}{2^h} \space or\space \cfrac{1}{2^{h/2}}
   \end{align}
 $$
 

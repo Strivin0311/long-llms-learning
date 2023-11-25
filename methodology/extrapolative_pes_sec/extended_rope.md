@@ -132,7 +132,7 @@ citation:
 
 $$
 \begin{align}
-  &\quad  \widetilde P_{i,j} := \langle R_{i/\kappa}\bold q, R_{j/\kappa}\bold k\rangle = \bold q^{\mathrm{T}} R_{\frac{j-i}{\kappa}} \bold k 
+  &\quad  \widetilde P_{i,j} := \langle R_{i/\kappa}\mathbf q, R_{j/\kappa}\mathbf k\rangle = \mathbf q^{\mathrm{T}} R_{\frac{j-i}{\kappa}} \mathbf k 
 \end{align}
 $$
 
@@ -152,10 +152,10 @@ citation:
 #### A length-extrapolatable transformer (LEX / XPOS) [`READ`]
 
 $$
-\begin{align}
-  &\quad  P_{i,j} := \langle\widetilde{\bold q}_i, \widetilde{\bold k}_j \rangle = \gamma^{i-j}(\bold q^{\mathrm{T}} R_{j-i} \bold k),\\
-  &\quad where\quad \widetilde{\bold q}_i := \gamma^i(R_i \bold q), \quad \widetilde{\bold k}_j := \gamma^{-j} (R_j \bold k),\quad i \ge j
-\end{align}
+  \begin{align}
+    & P_{i,j} := \langle\widetilde{\mathbf q_i}, \widetilde{\mathbf k_j} \rangle = \gamma^{i-j}(\mathbf q^{\mathrm{T}} R_{j-i} \mathbf k),\\
+    &\quad where\quad \widetilde{\mathbf q_i} := \gamma^i(R_i \mathbf q), \quad \widetilde{\mathbf k_j} := \gamma^{-j} (R_j \mathbf k),\quad i \ge j
+  \end{align}
 $$
 
 paper link: [here](https://arxiv.org/pdf/2212.10554)
@@ -217,10 +217,10 @@ citation:
 
 $$
 \begin{align}
-    &\quad \widetilde P_{i,j} := \langle R_{\alpha(i,j,w,\kappa)} \bold q,\;\bold k\rangle, \\
+    &\quad \widetilde P_{i,j} := \langle R_{\alpha(i,j,w,\kappa)} \mathbf q,\space \mathbf k\rangle, \\
     &\quad where\quad \alpha(i,j,w,\kappa) := \begin{cases}
-      \min\{ i-j, w+\frac{i-j-w}{\kappa}\}, & 0<\kappa<\infty\; (\mathrm{Leaky\; ReRoPE})\\
-      \min\{i-j,w\} & \kappa \rightarrow \infty\; (\mathrm{ReRoPE})
+      \min\lbrace  i-j, w+\frac{i-j-w}{\kappa}\rbrace, & 0<\kappa<\infty\space  (\mathrm{Leaky\space  ReRoPE})\\
+      \min\lbrace i-j,w\rbrace & \kappa \rightarrow \infty\space  (\mathrm{ReRoPE})
     \end{cases}
 \end{align}
 $$
@@ -285,11 +285,3 @@ citation:
   year={2021}
 }
 ```
-
-
-
-
-
-
-    
-    
