@@ -28,7 +28,7 @@ Notably, according to [this](#exploring-length-generalization-in-large-language-
 
 ### Preliminaries
 
-* **Positional Embeddings (PEs)**. Unlike recurrent neural networks(RNNs), Transformers process input tokens in parallel as a bag-of-words and lack an inherent sense of sequence order. To preserve the sequential information, the vanilla Transformer presents a novel Sinusoidal PE (SinPE). As depicted in the equation below, every entry in each dimension of SinPEs is derived based on trigonometric functions like $sin$, $cos$, and the periods vary exponentially with respect to absolute token positions, where base is a large integer manually set to 10000 according to the original paper without further explanation, and $d$ is the unit embedding dimension of hidden states. 
+* **Sinusoidal PE**. Unlike recurrent neural networks(RNNs), Transformers process input tokens in parallel as a bag-of-words and lack an inherent sense of sequence order. To preserve the sequential information, the vanilla Transformer presents a novel Sinusoidal PE (SinPE). As depicted in the equation below, every entry in each dimension of SinPEs is derived based on trigonometric functions like $sin$, $cos$, and the periods vary exponentially with respect to absolute token positions, where base is a large integer manually set to 10000 according to the original paper without further explanation, and $d$ is the unit embedding dimension of hidden states. 
 
 $$
 \begin{align}
@@ -46,7 +46,7 @@ $$
 \end{align}
 $$
 
-  Some variants have recently emerged, including trainable embeddings to learn an embedding mapping and relative embeddings based on relative positions. Among them, Rotary PE ([RoPE](#roformer-enhanced-transformer-with-rotary-position-embedding-read)) applies a rotation operation on a complex field (see the equation below) instead of an addition to $Q, K$ based on absolute positions, where it shares the same basis function as SinPE.
+* **RoPE**. Some variants have recently emerged, including trainable embeddings to learn an embedding mapping and relative embeddings based on relative positions. Among them, Rotary PE ([RoPE](#roformer-enhanced-transformer-with-rotary-position-embedding-read)) applies a rotation operation on a complex field (see the equation below) instead of an addition to $Q, K$ based on absolute positions, where it shares the same basis function as SinPE.
 
 $$
 \begin{align}
@@ -63,7 +63,7 @@ $$
 \end{align}
 $$
   
-  According to the property described in the following equation, not only RoPEs ensure the magnitude of $\mathbf{q}, \mathbf{k}$ remains unchanged due to unitary transformation, but also every entry in $P$, i.e., each pair of $\mathbf{q}, \mathbf{k}$, will only be tagged with embeddings in terms of their relative distance in the sequence. RoPE provides a more stable scheme to handle longer sequences. It captures relative positional patterns with absolute position awareness, thus widely used in state-of-the-art open-source LLMs like LLaMA and GLM. It is worth noting that SinPEs are initially applied on the word embeddings before entering the Encoder or Decoder blocks by addition. Comparing the [vanilla structure](../imgs/vanilla_Transformer_sinpe_highlight.png) with the current typical one in [Fig](../imgs/overview_with_caption.png) $\mathbf{(a)}$, RoPEs are applied to $Q, K$ in each attention layer before the kernel operations by equivalent element-wise vector multiplication to save registered buffer memory.
+* **RoPE Properties**. According to the property described in the following equation, not only RoPEs ensure the magnitude of $\mathbf{q}, \mathbf{k}$ remains unchanged due to unitary transformation, but also every entry in $P$, i.e., each pair of $\mathbf{q}, \mathbf{k}$, will only be tagged with embeddings in terms of their relative distance in the sequence. RoPE provides a more stable scheme to handle longer sequences. It captures relative positional patterns with absolute position awareness, thus widely used in state-of-the-art open-source LLMs like LLaMA and GLM. It is worth noting that SinPEs are initially applied on the word embeddings before entering the Encoder or Decoder blocks by addition. Comparing the [vanilla structure](../imgs/vanilla_Transformer_sinpe_highlight.png) with the current typical one in [Fig](../imgs/overview_with_caption.png) $\mathbf{(a)}$, RoPEs are applied to $Q, K$ in each attention layer before the kernel operations by equivalent element-wise vector multiplication to save registered buffer memory.
   
 $$
 \begin{align}
@@ -77,15 +77,14 @@ $$
 
 ### Enhancing Understanding
 
-* **Rethinking PEs as $\beta$-Encoding**. Su revisits the sine and cosine basis functions of SinPE and RoPE in his [blog](#transformer-upgrade-roadmap-10-rope-is-a-beta-base-encoding-read), considering them as approximated terms for the $\beta$-encoding system to represent any position number $n$, as shown in the equation below. This approach employs $\frac{d}{2}$ fixed $\beta$-bits, where $\beta := \theta^{-1} = base^{2/d}$ represents the power basis of the wavelength or period of the trigonometric basis functions, which increases as a geometric series $\lbrace \beta^i \rbrace_{i=0}^{d/2}$ with the dimension $i$ goes deeper.
+* **Rethinking PEs as $\beta$-Encoding**. Su revisits the sine and cosine basis functions of SinPE and RoPE in his [blog](#transformer-upgrade-roadmap-10-rope-is-a-beta-base-encoding-read), considering them as approximated terms for the $\beta$-encoding system to represent any position number $n$, as shown in the equation below. This approach employs $\frac{d}{2}$ fixed $\beta$-bits, where $\beta := \theta^{-1} = base^{2/d}$ represents the power basis of the wavelength or period of the trigonometric basis functions, which increases as a geometric series $\lbrace \beta^i \rbrace_{i=0}^{d/2}$ with the dimension $i$ goes deeper. 
+ To gain a deeper understanding of this concept, we can draw a comparison between the equation below and the format of SinPE, RoPE above. It becomes evident that  the $i$-th $\beta$-bit of the representation of $n$ involves the division of the $i$-th power of $\beta$, followed by some sort of periodical operations ($mod$ in $\beta$-encoding and $sin,cos$ in SinPE, RoPE).
 
 $$
 \begin{align}
     & n(\beta) := \lbrace\lfloor \cfrac{n}{\beta^{i}} \rfloor \space\mathrm{mod}\space \beta \rbrace_{i=0}^{\lceil \log_{\beta} n \rceil-1}
 \end{align}
 $$
-
-  To gain a deeper understanding of this concept, we can draw a comparison between the equation above and the format of SinPE, RoPE. It becomes evident that  the $i$-th $\beta$-bit of the representation of $n$ involves the division of the $i$-th power of $\beta$, followed by some sort of periodical operations ($mod$ in $\beta$-encoding and $sin,cos$ in SinPE, RoPE).
 
 * **Length Extrapolation Dilemma** Prior to the era of Transformers, RNN-based language models were trained on shorter sequences but were expected to generalize effectively to longer contexts, a phenomenon referred to as *length extrapolation* or *length generalization*. Unfortunately, recent studies have highlighted a significant shortcoming of *length extrapolation* ability for Transformer-based language models. This causes the insufficient context length limit during inference when applying to real-world applications.
 
