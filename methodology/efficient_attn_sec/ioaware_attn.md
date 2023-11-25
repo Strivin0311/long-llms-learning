@@ -8,6 +8,13 @@ All of the methods above in pursuit of efficient attention can be considered as 
 In comparison, these IO-aware attention mechanisms below collectively represent efforts to optimize attention computations by considering the memory bottleneck while preserving the exactness of attention kernel calculations.
 
 
+### Table of Contents
+* [Intro](#intro)
+* [Memory-Efficient Attention](#memory-efficient-attention)
+* [Flash Attention](#flash-attention)
+* [Paged Attention](#paged-attention)
+
+
 ### Memory-Efficient Attention
 
 #### Self-attention Does Not Need Memory [`READ`]

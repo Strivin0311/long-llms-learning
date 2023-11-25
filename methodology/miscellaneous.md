@@ -1,5 +1,5 @@
 # Miscellaneous Methodology for long LLMs
-*Here's some resources about Miscellaneous Methodology for long LLMs*
+*Here're some resources about Miscellaneous Methodology for long LLMs*
 
 
 

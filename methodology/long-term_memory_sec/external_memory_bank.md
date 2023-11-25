@@ -1,5 +1,5 @@
 # External MemoryBank
-*Here's some resources about External MemoryBank*
+*Here're some resources about External MemoryBank*
 
 
 ### Intro
@@ -11,7 +11,7 @@ As a solution, another retrieval-augmented mechanisms decouples the model itself
 
 
 ### Table of Contents
-
+* [Intro](#intro)
 * [Cosine-Based Retrieval Criteria](#cosine-based-retrieval-criteria)
 * [Heuristic Retrieval Criteria](#heuristic-retrieval-criteria)
 * [Leanable Retrieval Criteria](#leanable-retrieval-criteria)

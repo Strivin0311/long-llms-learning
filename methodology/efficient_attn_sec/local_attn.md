@@ -19,6 +19,7 @@ Considering the significance of local context in certain applications, various a
 
 
 ### Table of Contents
+* [Intro](#intro)
 * [Block-wise Attention](#block-wise-attention)
 * [Sliding Window Attention](#sliding-window-attention)
 * [Global-Local Hybrid Attention](#global-local-hybird-attention)

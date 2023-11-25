@@ -17,7 +17,7 @@ These methods aim to introduce a sparse attention mask, denoted as $M_{\mathcal{
 
 
 ### Table of Contents
-
+* [Intro](#intro)
 * [Fixed Sparsity Patterns](#fixed-sparsity-patterns)
 * [Adaptive Sparsity Patterns](#adaptive-sparsity-patterns)
 * [Graph Sparsification](#graph-sparsification)

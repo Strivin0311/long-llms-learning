@@ -8,7 +8,16 @@
 In addition to heuristic approaches aimed at restricting full attention computation, some research explores the mathematical essence behind attention kernel computations. These studies use estimation methods based on the sparsity or low-rank properties of attention matrices to approximate attention with linear complexity, albeit at the cost of precision. We introduce several of these approximation techniques below.
 
 
-## Definitions
+### Table of Contents
+* [Intro](#intro)
+* [Definitions](#definitions)
+* [Low-Rank Approximation](#low-rank-approximation)
+* [Nested Attention](#nested-attention)
+* [Kernelized Approximation](#kernelized-approximation)
+* [Sparse-Kernelized Hybrid](#sparse-kernelized-hybrid)
+
+
+### Definitions
 
 Prior to delving into the literature, we introduce the following definitions to establish a unified representantion of mathematical symbols within the equations below.
 
@@ -52,16 +61,8 @@ D &:=\mathrm{diag}\left[\mathcal{K}(Q, K) \times \mathbf 1_L\right]\\
 $$
 
 
-### Table of Contents
-
-* [Low-Rank Approximation](#low-rank-approximation)
-* [Nested Attention](#nested-attention)
-* [Kernelized Approximation](#kernelized-approximation)
-* [Sparse-Kernelized Hybrid](#sparse-kernelized-hybrid)
-
 
 ### Low-Rank Approximation
-
 
 
 #### Linformer: Self-attention with linear complexity [`READ`]

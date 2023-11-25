@@ -17,6 +17,8 @@ This approach enables the expansion of the effective context length boundary for
 
 
 ### Table of Contents
+* [Intro](#intro)
+* [Preiliminaries](#preliminaries)
 * [Local Attention](./efficient_attn_sec/local_attn.md)
 * [Hierarchical Attention](./efficient_attn_sec/hierarchical_attn.md)
 * [Sparse Attention](./efficient_attn_sec/sparse_attn.md)

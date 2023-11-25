@@ -12,6 +12,7 @@ local attention for multi-scaled contextual receptive fields.
 
 
 ### Table of Contents
+* [Intro](#intro)
 * [Two-Level Hierarchy](#two-level-hierarchy)
 * [Multi-Level Hierarchy](#multi-level-hierarchy)
 

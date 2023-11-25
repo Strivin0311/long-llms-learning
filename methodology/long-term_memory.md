@@ -1,5 +1,5 @@
 # Long-Term Memory
-*Here's some resources about Long-Term Memory*
+*Here're some resources about Long-Term Memory*
 
 <p align="center">
     <img src="../imgs/long-term_memory.png" width="400"></img>
@@ -20,6 +20,8 @@ Second, an alternative approach involves leveraging existing models as interface
 
 
 ### Table of Contents
+* [Intro](#intro)
+* [Preiliminaries](#preliminaries)
 * [Internal MemoryCache](./long-term_memory_sec/internal_memory_cache.md)
 * [External MemoryBank](./long-term_memory_sec/external_memory_bank.md)
 

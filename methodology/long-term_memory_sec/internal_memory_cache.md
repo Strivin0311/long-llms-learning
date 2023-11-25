@@ -1,5 +1,5 @@
 # Internal MemoryCache
-*Here's some resources about Internal MemoryCache*
+*Here're some resources about Internal MemoryCache*
 
 
 ### Intro
@@ -18,7 +18,7 @@ To facilitate later equations, we assume that each segment has the same length $
 
 
 ### Table of Contents
-
+* [Intro](#intro)
 * [Segment-Level Recurrence](#segment-level-recurrence)
 * [Retrospective Recurrence](#retrospective-recurrence)
 * [Continuous-Signal Memory](#continuous-signal-memory)
