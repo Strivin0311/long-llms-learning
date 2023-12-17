@@ -29,7 +29,7 @@ Considering the significance of local context in certain applications, various a
 
 ### Block-wise Attention
 
-#### Longlora: Efficient fine-tuning of long-context large language models [`READ`]
+#### LongLoRA: Efficient fine-tuning of long-context large language models [`READ`]
 
 <p align="center">
   <img src="../../imgs/S2_attn.png" width="200"></img>

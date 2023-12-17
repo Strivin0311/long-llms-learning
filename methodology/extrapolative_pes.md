@@ -78,7 +78,8 @@ $$
 ### Enhancing Understanding
 
 * **Rethinking PEs as $\beta$-Encoding**. Su revisits the sine and cosine basis functions of SinPE and RoPE in his [blog](#transformer-upgrade-roadmap-10-rope-is-a-beta-base-encoding-read), considering them as approximated terms for the $\beta$-encoding system to represent any position number $n$, as shown in the equation below. This approach employs $\frac{d}{2}$ fixed $\beta$-bits, where $\beta := \theta^{-1} = base^{2/d}$ represents the power basis of the wavelength or period of the trigonometric basis functions, which increases as a geometric series $\lbrace \beta^i \rbrace_{i=0}^{d/2}$ with the dimension $i$ goes deeper. 
- To gain a deeper understanding of this concept, we can draw a comparison between the equation below and the format of SinPE, RoPE above. It becomes evident that  the $i$-th $\beta$-bit of the representation of $n$ involves the division of the $i$-th power of $\beta$, followed by some sort of periodical operations ($mod$ in $\beta$-encoding and $sin,cos$ in SinPE, RoPE).
+ 
+  To gain a deeper understanding of this concept, we can draw a comparison between the equation below and the format of SinPE, RoPE above. It becomes evident that  the $i$-th $\beta$-bit of the representation of $n$ involves the division of the $i$-th power of $\beta$, followed by some sort of periodical operations ($mod$ in $\beta$-encoding and $sin,cos$ in SinPE, RoPE).
 
 $$
 \begin{align}
