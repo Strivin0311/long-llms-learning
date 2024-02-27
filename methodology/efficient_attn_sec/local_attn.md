@@ -19,6 +19,7 @@ Considering the significance of local context in certain applications, various a
 
 
 ### Table of Contents
+
 * [Intro](#intro)
 * [Block-wise Attention](#block-wise-attention)
 * [Sliding Window Attention](#sliding-window-attention)
@@ -28,6 +29,7 @@ Considering the significance of local context in certain applications, various a
 
 
 ### Block-wise Attention
+
 
 #### LongLoRA: Efficient fine-tuning of long-context large language models [`READ`]
 
@@ -133,6 +135,39 @@ citation:
 ### Sliding Window Attention
 
 
+#### Alternating Updates for Efficient Transformers [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2301.13310.pdf)
+
+
+```bibtex
+@article{baykal2024alternating,
+  title={Alternating updates for efficient transformers},
+  author={Baykal, Cenk and Cutler, Dylan and Dikkala, Nishanth and Ghosh, Nikhil and Panigrahy, Rina and Wang, Xin},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+```
+
+
+#### Funnel-transformer: Filtering out sequential redundancy for efficient language processing [`READ`]
+
+paper link: [here](https://proceedings.neurips.cc/paper/2020/file/2cd2915e69546904e4e5d4a2ac9e1652-Paper.pdf)
+
+
+```bibtex
+@article{dai2020funnel,
+  title={Funnel-transformer: Filtering out sequential redundancy for efficient language processing},
+  author={Dai, Zihang and Lai, Guokun and Yang, Yiming and Le, Quoc},
+  journal={Advances in neural information processing systems},
+  volume={33},
+  pages={4271--4282},
+  year={2020}
+}
+```
+
+
 #### Longformer: The long-document transformer [`READ`]
 
 <p align="center">
@@ -156,6 +191,26 @@ citation:
 
 ### Global-Local Hybird Attention
 
+
+#### LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning [`READ`]
+
+<p align="center">
+  <img src="../../imgs/longlm.png" width="800"></img>
+</p>
+
+paper link: [here](https://arxiv.org/pdf/2401.01325.pdf)
+
+citation:
+```bibtex
+@misc{jin2024llm,
+      title={LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning}, 
+      author={Hongye Jin and Xiaotian Han and Jingfeng Yang and Zhimeng Jiang and Zirui Liu and Chia-Yuan Chang and Huiyuan Chen and Xia Hu},
+      year={2024},
+      eprint={2401.01325},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 #### Lm-infinite: Simple on-the-fly length generalization for large language models [`READ`]
 

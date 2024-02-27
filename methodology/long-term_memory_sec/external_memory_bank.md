@@ -36,9 +36,18 @@ citation:
 ```
 
 
-####  Langchain
+#### LangChain: Building applications with LLMs through composability [`READ`]
 
 github link: [here](https://github.com/langchain-ai/langchain)
+
+doc link: [here](https://python.langchain.com/docs/get_started/introduction)
+
+tutorial links:
+
+|tutorial name|public date|main-lib version|notebook link|
+|-|-|-|-|
+|tutorial_langchain|2023.12|langchain=0.0.352, openai=1.6.1|[here](../notebooks/tutorial_langchain.ipynb)|
+
 
 citation:
 ```bibtex
@@ -54,6 +63,26 @@ citation:
 
 ### Heuristic Retrieval Criteria
 
+
+#### MemGPT- Towards LLMs as Operating Systems [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2310.08560.pdf)
+
+github link: [here](https://github.com/cpacker/MemGPT)
+
+homepage link: [here](https://research.memgpt.ai/)
+
+citation:
+```bibtex
+@misc{packer2024memgpt,
+      title={MemGPT: Towards LLMs as Operating Systems}, 
+      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
+      year={2024},
+      eprint={2310.08560},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
 
 #### Unlimiformer: Long-range transformers with unlimited length input [`READ`]
 
@@ -149,6 +178,28 @@ citation:
 
 ### Leanable Retrieval Criteria 
     
+
+#### Focused transformer: Contrastive training for context scaling [`READ`]
+
+<p align="center">
+  <img src="../../imgs/focused_transformer.png" width="800"></img>
+</p>
+
+
+paper link: [here](https://arxiv.org/pdf/2307.03170.pdf)
+
+citation:
+```bibtex
+@misc{tworkowski2023focused,
+      title={Focused Transformer: Contrastive Training for Context Scaling}, 
+      author={Szymon Tworkowski and Konrad Staniszewski and Mikołaj Pacek and Yuhuai Wu and Henryk Michalewski and Piotr Miłoś},
+      year={2023},
+      eprint={2307.03170},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 
 #### Augmenting Language Models with Long-Term Memory (LongMem) [`READ`]
 

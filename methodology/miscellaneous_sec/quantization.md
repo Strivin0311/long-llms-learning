@@ -1,5 +1,5 @@
 # Quantization
-*Here's some resources about Quantization for LLMs training and inference, deployment*
+*Here're some resources about Quantization for LLMs training and inference, deployment*
 
 
 #### QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models [`UNREAD`]

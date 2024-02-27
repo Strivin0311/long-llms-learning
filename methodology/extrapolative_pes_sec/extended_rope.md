@@ -20,6 +20,23 @@
 ### Scaling Strategies
 
 
+#### Effective Long-Context Scaling of Foundation Models [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2309.16039.pdf)
+
+citation:
+```bibtex
+@misc{xiong2023effective,
+      title={Effective Long-Context Scaling of Foundation Models}, 
+      author={Wenhan Xiong and Jingyu Liu and Igor Molybog and Hejia Zhang and Prajjwal Bhargava and Rui Hou and Louis Martin and Rashi Rungta and Karthik Abinav Sankararaman and Barlas Oguz and Madian Khabsa and Han Fang and Yashar Mehdad and Sharan Narang and Kshitiz Malik and Angela Fan and Shruti Bhosale and Sergey Edunov and Mike Lewis and Sinong Wang and Hao Ma},
+      year={2023},
+      eprint={2309.16039},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
 #### Giraffe: Adventures in expanding context lengths in llms (Power-Scaling) [`READ`]
 
 $$

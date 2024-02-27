@@ -115,6 +115,43 @@ citation:
 ### Kernelized Approximation
 
 
+#### Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation [`READ`]
+
+<p align="center">
+  <img src="../../imgs/primal_attn.png" width="800"></img>
+</p>
+
+paper link: [here](https://arxiv.org/pdf/2305.19798.pdf)
+
+```bibtex
+@misc{chen2023primalattention,
+      title={Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation}, 
+      author={Yingyi Chen and Qinghua Tao and Francesco Tonin and Johan A. K. Suykens},
+      year={2023},
+      eprint={2305.19798},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+#### Fourierformer: Transformer meets generalized fourier integral theorem [`READ`]
+
+paper link: [here](https://proceedings.neurips.cc/paper_files/paper/2022/file/bc968adbdff4a2551649d464b83f264a-Paper-Conference.pdf)
+
+
+citation:
+```bibtex
+@article{nguyen2022fourierformer,
+  title={Fourierformer: Transformer meets generalized fourier integral theorem},
+  author={Nguyen, Tan and Pham, Minh and Nguyen, Tam and Nguyen, Khai and Osher, Stanley and Ho, Nhat},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={29319--29335},
+  year={2022}
+}
+```
+
+
 #### Random feature attention [`READ`]
 
 paper link: [here](https://arxiv.org/pdf/2103.02143)

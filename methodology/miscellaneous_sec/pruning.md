@@ -1,5 +1,5 @@
 # Pruning
-*Here's some resources about Pruning for LLMs inference and deployment in domain-specific downstream tasks*
+*Here're some resources about Pruning for LLMs inference and deployment in domain-specific downstream tasks*
 
 
 #### LLM-Pruner: On the Structural Pruning of Large Language Models [`UNREAD`]

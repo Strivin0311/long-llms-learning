@@ -24,6 +24,7 @@ This approach enables the expansion of the effective context length boundary for
 * [Sparse Attention](./efficient_attn_sec/sparse_attn.md)
 * [Approximated Attention](./efficient_attn_sec/approx_attn.md)
 * [IO-Aware Attention](./efficient_attn_sec/ioaware_attn.md)
+* [Other Relevant Surveys](#other-relevant-surveys)
 
 
 ### Prelimilaries

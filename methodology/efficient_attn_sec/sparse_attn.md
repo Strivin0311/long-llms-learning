@@ -42,6 +42,21 @@ citation:
 }
 ```
 
+#### DeepSpeed Sparse Attention: Powering 10x longer sequences with 6x faster execution [`READ`]
+
+blog link: [here](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/)
+
+citation:
+```bibtex
+@misc{microsoft2020deepspeed,
+  author = {Microsoft},
+  title = {DeepSpeed Sparse Attention: Powering 10x longer sequences with 6x faster execution},
+  year = {2020},
+  howpublished = {\url{https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/}},
+}
+```
+
+
 #### Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting (LogSparse) [`READ`]
 
 <p align="center">

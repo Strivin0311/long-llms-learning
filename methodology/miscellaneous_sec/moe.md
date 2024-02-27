@@ -1,4 +1,4 @@
 # Mixture-of-Experts (MoE)
-*Here's some resources about Mixture-of-Experts (MoE) sparse structure design of LLMs*
+*For the resourses, Please redirect to the section in another github repo: [here](https://github.com/Strivin0311/llms-learning/blob/main/modeling/architecture/mixture-of-experts.md).*
 
 
