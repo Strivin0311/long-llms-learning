@@ -14,6 +14,7 @@
 * [Scaling Strategies](#scaling-strategies)
 * [Truncation Strategies](#truncation-strategies)
 * [Rearrangement Strategies](#rearrangement-strategies)
+* [Miscellaneous](#miscellaneous)
 
 
 
@@ -300,5 +301,26 @@ citation:
   author={Kiyono, Shun and Kobayashi, Sosuke and Suzuki, Jun and Inui, Kentaro},
   journal={arXiv preprint arXiv:2109.05644},
   year={2021}
+}
+```
+
+
+### Miscellaneous
+
+#### CoCA: Fusing Position Embedding with Collinear Constrained Attention in Transformers for Long Context Window Extending [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2309.08646.pdf)
+
+github link: [here](https://github.com/codefuse-ai/Collinear-Constrained-Attention)
+
+citation:
+```bibtex
+@misc{zhu2024coca,
+      title={CoCA: Fusing Position Embedding with Collinear Constrained Attention in Transformers for Long Context Window Extending}, 
+      author={Shiyi Zhu and Jing Ye and Wei Jiang and Siqiao Xue and Qi Zhang and Yifan Wu and Jianguo Li},
+      year={2024},
+      eprint={2309.08646},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```

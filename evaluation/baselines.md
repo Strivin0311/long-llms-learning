@@ -3,8 +3,10 @@
 
 ### Table of Contents
 
-* [Baseline Table](#baseline-table)
-* [Meta Table Info](#meta-table-info)
+- [Baselines](#baselines)
+    - [Table of Contents](#table-of-contents)
+    - [Baseline Table](#baseline-table)
+    - [Meta Table Info](#meta-table-info)
 
 ### Baseline Table
 
@@ -13,7 +15,8 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Anima-7B-100k | ✅ | Llama2 | chat | zh | 100 | 6.7 | 12.6 | 12.6 | [hf](https://huggingface.co/lyogavin/Anima-7B-100K) \| [github](https://github.com/lyogavin/Anima/tree/main/anima_100k) |
 | ChatGLM2-6B-32k | ✅ | GLM | chat | zh | 32 | 6.2 | 11.7 | 11.6 | [hf](https://huggingface.co/THUDM/chatglm2-6b-32k) \| [github](https://github.com/THUDM/ChatGLM2-6B) |
-| ChatGLM3-6B-32k | ✅ | GLM | chat | zh | 32 | 6.2 | 11.7 | 11.6 | [hf](https://huggingface.co/THUDM/chatglm3-6b) \| [github](https://github.com/THUDM/ChatGLM3) |
+| ChatGLM3-6B-32k | ✅ | GLM | chat | zh | 32 | 6.2 | 11.7 | 11.6 | [hf](https://huggingface.co/THUDM/chatglm3-6b-32k) \| [github](https://github.com/THUDM/ChatGLM3) |
+| ChatGLM3-6B-128k | ✅ | GLM | chat | zh | 128 | 6.2 | 11.7 | 11.6 | [hf](https://huggingface.co/THUDM/chatglm3-6b-128k) \| [github](https://github.com/THUDM/ChatGLM3) |
 | Chinese-Alpaca2-7B-16k | ✅ | Llama2 | instruct | zh | 16 | 6.9 | 25.9 | 12.9 | [hf](https://huggingface.co/hfl/chinese-alpaca-2-7b-16k) \| [github](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/) |
 | Chinese-Llama2-7B-16k | ✅ | Llama2 | chat | zh | 16 | 6.9 | 26.3 | 12.9 | [hf](https://huggingface.co/hfl/chinese-llama-2-7b-16k) \| [github](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/) |
 | Chinese-Mixtral | ✅ | Mixtral | chat | zh | 32 | 46.7 | 175.0 | 87.0 | [hf](https://huggingface.co/hfl/chinese-mixtral) \| [github](https://github.com/ymcui/Chinese-Mixtral) |

@@ -1,5 +1,5 @@
 # Specific Objectives
-*Here're some resources about Specific Objectives*
+*Here're some resources about Specific Objectives for Long-context LLMs modeling*
 
 
 #### PRIMERA: Pyramid-based masked sentence pre-training for multi-document summarization (Entity Pyramid) [`READ`]

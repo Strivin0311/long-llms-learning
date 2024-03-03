@@ -10,6 +10,7 @@ This section provides a concise overview of miscellaneous solutions that extend 
 ### Table of Contents
 * [Intro](#intro)
 * [Specific Objectives](./miscellaneous_sec/spec_objective.md)
+* [Specific Activation Functions](./miscellaneous_sec/spec_activation.md)
 * [Mixture of Experts](./miscellaneous_sec/moe.md)
 * [Parallelism](./miscellaneous_sec/parallel.md)
 * [Weight Compression](./miscellaneous_sec/weight_compress.md)

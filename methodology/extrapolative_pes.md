@@ -22,7 +22,8 @@ Notably, according to [this](#exploring-length-generalization-in-large-language-
 * [Enhancing Understanding](#enhancing-understanding)
 * [Attention Bias](./extrapolative_pes_sec/attention_bias.md)
 * [Extended RoPE](./extrapolative_pes_sec/extended_rope.md)
-* [References](#references)
+* [Miscellaneous](#miscellaneous)
+* [Empirical Study](#empirical-study)
       
 
 
@@ -94,7 +95,28 @@ $$
   * From a training view, due to the wavelength or period of the basis functions increases exponentially, proportional to $\lbrace \beta^i \rbrace_{i=0}^{d/2}$, training samples constrained by currently supported $L_{max}$ are typically too short for the rear low-frequency dimensions to  span the entire periodic cycle. This suggests only a few dimensions perceive complete periodic information thus receiving sufficient training for extrapolation, and the boundary is defined as **critical dimension** (e.g. for Llama2-4k, the critical dimension is only 92). Consequently, direct extrapolation becomes prone to failure when relying on these poor-learned low-frequency components.
 
 
-### References
+### Miscellaneous
+
+#### Linearized Relative Positional Encoding (LRPE) [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2307.09270.pdf)
+
+github link: [here](https://github.com/OpenNLPLab/Lrpe)
+
+citation:
+```bibtex
+@misc{qin2023linearized,
+      title={Linearized Relative Positional Encoding}, 
+      author={Zhen Qin and Weixuan Sun and Kaiyue Lu and Hui Deng and Dongxu Li and Xiaodong Han and Yuchao Dai and Lingpeng Kong and Yiran Zhong},
+      year={2023},
+      eprint={2307.09270},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
+### Empirical Study
 
 
 #### Transformer Upgrade Roadmap: 10. RoPE is a beta-base Encoding [`READ`]

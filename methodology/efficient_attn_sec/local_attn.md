@@ -82,6 +82,23 @@ citation:
 ```
 
 
+#### Mega: Moving Average Equipped Gated Attention [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2209.10655.pdf)
+
+citation:
+```bibtex
+@misc{ma2023mega,
+      title={Mega: Moving Average Equipped Gated Attention}, 
+      author={Xuezhe Ma and Chunting Zhou and Xiang Kong and Junxian He and Liangke Gui and Graham Neubig and Jonathan May and Luke Zettlemoyer},
+      year={2023},
+      eprint={2209.10655},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+
 #### Sparse sinkhorn attention [`READ`]
 
 paper link: [here](http://proceedings.mlr.press/v119/tay20a/tay20a.pdf)

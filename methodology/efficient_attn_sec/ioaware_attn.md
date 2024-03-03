@@ -13,6 +13,7 @@ In comparison, these IO-aware attention mechanisms below collectively represent 
 * [Memory-Efficient Attention](#memory-efficient-attention)
 * [Flash Attention](#flash-attention)
 * [Paged Attention](#paged-attention)
+* [Lightning Attention](#lightning-attention)
 
 
 ### Memory-Efficient Attention
@@ -100,5 +101,43 @@ citation:
   author={Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E and Zhang, Hao and Stoica, Ion},
   journal={arXiv preprint arXiv:2309.06180},
   year={2023}
+}
+```
+
+### Lightning Attention
+
+#### Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2401.04658.pdf)
+
+github link: [here](https://github.com/OpenNLPLab/lightning-attention)
+
+citation:
+```bibtex
+@misc{qin2024lightning,
+      title={Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models}, 
+      author={Zhen Qin and Weigao Sun and Dong Li and Xuyang Shen and Weixuan Sun and Yiran Zhong},
+      year={2024},
+      eprint={2401.04658},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+#### TransNormerLLM: A Faster and Better Large Language Model with Improved TransNormer [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2307.14995.pdf)
+
+github link: [here](https://github.com/OpenNLPLab/lightning-attention)
+
+citation:
+```bibtex
+@misc{qin2024transnormerllm,
+      title={TransNormerLLM: A Faster and Better Large Language Model with Improved TransNormer}, 
+      author={Zhen Qin and Dong Li and Weigao Sun and Weixuan Sun and Xuyang Shen and Xiaodong Han and Yunshen Wei and Baohong Lv and Xiao Luo and Yu Qiao and Yiran Zhong},
+      year={2024},
+      eprint={2307.14995},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
