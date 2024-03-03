@@ -44,7 +44,7 @@ Or you can further see how to implement llama attention module with flash-rerope
 ### Latest Benchmarks
 
 * [2023.12.19] [InfiniteBench](https://github.com/OpenBMB/InfiniteBench), located [here](./evaluation/datasets.md#dataset-table) in this repo.
-* [2023.8.29] [LongBench](https://github.com/THUDM/LongBench), located [here](./evaluation/datasets.md#dataset-table) in this repo.
+* [2023.08.29] [LongBench](https://github.com/THUDM/LongBench), located [here](./evaluation/datasets.md#dataset-table) in this repo.
 
 
 ## More to Learn
