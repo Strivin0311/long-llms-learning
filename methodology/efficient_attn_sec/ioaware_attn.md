@@ -51,7 +51,14 @@ citation:
 
 #### Flashattention-2: Faster attention with better parallelism and work partitioning [`READ`]
 
-paper link: [here](https://arxiv.org/pdf/2307.08691.pdf?trk=public_post_comment-text)
+
+paper link: [here](https://arxiv.org/pdf/2307.08691.pdf)
+
+github link: [here](https://github.com/Dao-AILab/flash-attention)
+
+tutorial link: [here](../../notebooks/tutorial_triton.ipynb)
+
+derivation manualscript link: [here](./flash_attn2.md)
 
 citation: 
 ```bibtex
@@ -74,6 +81,8 @@ $$
 $$
 
 paper link: [here](https://proceedings.neurips.cc/paper_files/paper/2022/file/67d57c32e20fd0a7a302cb81d36e40d5-Paper-Conference.pdf)
+
+github link: [here](https://github.com/Dao-AILab/flash-attention)
 
 citation: 
 ```bibtex
