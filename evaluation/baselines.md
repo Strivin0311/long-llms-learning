@@ -32,6 +32,7 @@
 | GPT4-32k | ❌ | GPT4 | chat | en | 32 | ? | ? | ? | [acc](https://chat.openai.com/auth/login) \| [home](https://openai.com/gpt-4) \| [doc](https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo) |
 | GPT4-Turbo | ❌ | GPT4 | chat | en | 128 | ? | ? | ? | [acc](https://chat.openai.com/auth/login) \| [home](https://openai.com/gpt-4) \| [doc](https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo) |
 | InternLM-Chat-7B | ✅ | Llama2 | chat | en | 200 | 6.7 | 12.6 | 12.6 | [hf](https://huggingface.co/internlm/internlm2-chat-7b) \| [github](https://github.com/InternLM/InternLM) |
+| Kimi | ❌ | Kimi | chat | zh | 2000 | ? | ? | ? | [acc](https://kimi.moonshot.cn/) \| [home](https://www.moonshot.cn/) |
 | Llama2-7B-32k | ✅ | Llama2 | chat | en | 32 | 6.7 | 12.6 | 12.6 | [hf](https://huggingface.co/togethercomputer/LLaMA-2-7B-32K) \| [home](https://www.together.ai/) |
 | Llama2-7B-Instruct-32k | ✅ | Llama2 | instruct | en | 32 | 6.7 | 12.6 | 12.6 | [hf](https://huggingface.co/togethercomputer/Llama-2-7B-32K-Instruct) \| [home](https://www.together.ai/) |
 | LLongMA2-7B-16k-flash | ✅ | Llama2 | chat | en | 16 | 6.7 | 12.6 | 12.6 | [hf](https://huggingface.co/emozilla/LLongMA-2-7b-16k-flash) \| [paper](https://arxiv.org/pdf/2309.00071.pdf) |

@@ -37,7 +37,10 @@ Or you can further see how to implement llama attention module with flash-rerope
 
 ### Latest Baselines
 
+* [2024.3.18] [Longer than long, the Kimi AI assistant launches 200w lossless context window](https://mp.weixin.qq.com/s/UjXKic9IAaf55ARqbnJ3Pg), located [here](./methodology/miscellaneous.md#baseline-table) in this repo.
+
 * [2024.01.30] [chatglm-6b-128k](https://huggingface.co/THUDM/chatglm3-6b-128k) with $L_{max}$ **128k**, located [here](./evaluation/baselines.md#baseline-table) in this repo.
+
 * [2024.01.25] [gpt-4-turbo-preview](https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo) with $L_{max}$ **128k**, located [here](./evaluation/baselines.md#baseline-table) in this repo.
 
 
