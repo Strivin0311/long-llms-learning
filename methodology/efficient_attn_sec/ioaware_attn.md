@@ -18,6 +18,27 @@ In comparison, these IO-aware attention mechanisms below collectively represent 
 
 ### Memory-Efficient Attention
 
+
+#### DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training (LightSeq) [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2310.03294)
+
+github link: [here](https://github.com/RulinShao/LightSeq)
+
+citation:
+
+```bibtex
+@misc{li2024distflashattn,
+      title={DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training}, 
+      author={Dacheng Li and Rulin Shao and Anze Xie and Eric P. Xing and Xuezhe Ma and Ion Stoica and Joseph E. Gonzalez and Hao Zhang},
+      year={2024},
+      eprint={2310.03294},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+
 #### Self-attention Does Not Need Memory [`READ`]
 
 paper link: [here](https://arxiv.org/pdf/2112.05682)
