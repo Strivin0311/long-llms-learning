@@ -55,6 +55,24 @@ citation:
 
 ### Flash Attention
 
+#### Is Flash Attention Stable? [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2405.02803)
+
+citation:
+
+```bibtex
+@misc{golden2024flashattentionstable,
+      title={Is Flash Attention Stable?}, 
+      author={Alicia Golden and Samuel Hsia and Fei Sun and Bilge Acun and Basil Hosmer and Yejin Lee and Zachary DeVito and Jeff Johnson and Gu-Yeon Wei and David Brooks and Carole-Jean Wu},
+      year={2024},
+      eprint={2405.02803},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+      url={https://arxiv.org/abs/2405.02803}, 
+}
+```
+
 #### Faster Causal Attention Over Large Sequences Through Sparse Flash Attention (SCFA) [`READ`]
 
 paper link: [here](https://arxiv.org/pdf/2306.01160)
@@ -135,6 +153,28 @@ citation:
 ```
 
 ### Lightning Attention
+
+
+#### Linear Attention Sequence Parallelism (LASP) [`READ`]
+
+paper link: [here](https://arxiv.org/pdf/2404.02882)
+
+github link: [here](https://github.com/OpenNLPLab/LASP)
+
+citation:
+
+```bibtex
+@misc{sun2024linearattentionsequenceparallelism,
+      title={Linear Attention Sequence Parallelism}, 
+      author={Weigao Sun and Zhen Qin and Dong Li and Xuyang Shen and Yu Qiao and Yiran Zhong},
+      year={2024},
+      eprint={2404.02882},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+      url={https://arxiv.org/abs/2404.02882}, 
+}
+```
+
 
 #### Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models [`READ`]
 

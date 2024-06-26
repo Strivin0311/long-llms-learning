@@ -30,9 +30,11 @@ Or you can further see how to implement llama attention module with flash-rerope
 
 ### Latest Works
 
-* [2024.02.15] [Data Engineering for Scaling Language Models to 128K Context](https://arxiv.org/abs/2402.10171), located [here](./methodology/miscellaneous.md#long-contenxt-training) in this repo.
+* [2024.04] [Linear Attention Sequence Parallelism](https://arxiv.org/abs/2404.02882), located [here](./methodology/efficient_attn_sec/ioaware_attn.md#lightning-attention) in this repo.
+
+* [2024.02] [Data Engineering for Scaling Language Models to 128K Context](https://arxiv.org/abs/2402.10171), located [here](./methodology/miscellaneous.md#long-contenxt-training) in this repo.
   
-* [2024.01.15] [Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models](https://arxiv.org/abs/2401.04658), located [here](./methodology/efficient_attn_sec/ioaware_attn.md#lightning-attention) in this repo.
+* [2024.01] [Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models](https://arxiv.org/abs/2401.04658), located [here](./methodology/efficient_attn_sec/ioaware_attn.md#lightning-attention) in this repo.
 
 
 ### Latest Baselines
