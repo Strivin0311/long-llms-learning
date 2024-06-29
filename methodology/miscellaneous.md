@@ -21,7 +21,7 @@ This section provides a concise overview of miscellaneous solutions that extend 
 ### Long-contenxt Training
 
 
-#### Data Engineering for Scaling Language Models to 128K Context [`READ`]
+#### Data Engineering for Scaling Language Models to 128K Context
 
 paper link: [here](https://arxiv.org/pdf/2402.10171.pdf)
 

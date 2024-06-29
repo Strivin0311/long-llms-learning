@@ -4,7 +4,7 @@
 ### Emipirical Study
 
 
-#### Lost in the Middle- How Language Models Use Long Contexts [`READ`]
+#### Lost in the Middle- How Language Models Use Long Contexts
 
 paper link: [here](https://arxiv.org/pdf/2307.03172.pdf)
 
@@ -22,7 +22,7 @@ citation:
 ```
 
 
-#### Sharp nearby, fuzzy far away: How neural language models use context [`READ`]
+#### Sharp nearby, fuzzy far away: How neural language models use context
 
 paper link: [here](https://arxiv.org/pdf/1805.04623)
 
@@ -40,7 +40,7 @@ citation:
 
 ### Survey
 
-#### A survey on long text modeling with transformers [`READ`]
+#### A survey on long text modeling with transformers
 
 paper link: [here](https://arxiv.org/pdf/2302.14502)
 
@@ -56,7 +56,7 @@ citation:
 ```
 
 
-#### An empirical survey on long document summarization: Datasets, models, and metrics [`READ`]
+#### An empirical survey on long document summarization: Datasets, models, and metrics
 
 paper link: [here](https://arxiv.org/pdf/2207.00939)
 
@@ -76,7 +76,7 @@ citation:
 ```
 
 
-#### A survey of transformers [`READ`]
+#### A survey of transformers
 
 paper link: [here](https://www.sciencedirect.com/science/article/pii/S2666651022000146)
 
@@ -92,7 +92,7 @@ citation:
 }
 ```
 
-#### Long-context transformers: A survey [`READ`]
+#### Long-context transformers: A survey
 
 paper link: [here](https://ieeexplore.ieee.org/abstract/document/9587279/)
 
@@ -110,7 +110,7 @@ citation:
 ```
 
 
-#### Efficient Transformers: A Survey [`READ`]
+#### Efficient Transformers: A Survey
 
 paper link: [here](https://arxiv.org/pdf/2009.06732.pdf)
 

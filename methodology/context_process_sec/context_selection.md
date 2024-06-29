@@ -10,7 +10,7 @@ lengthy texts into segments and select specific ones based on predefined criteri
 
 
 
-#### LangChain: Building applications with LLMs through composability [`READ`]
+#### LangChain: Building applications with LLMs through composability
 
 github link: [here](https://github.com/langchain-ai/langchain)
 
@@ -35,7 +35,7 @@ citation:
 }
 ```
 
-#### Long-span summarization via local attention and content selection (LoBART) [`READ`]
+#### Long-span summarization via local attention and content selection (LoBART)
 
 <p align="center">
   <img src="../../imgs/lobart.png" width="800"></img>
@@ -55,7 +55,7 @@ citation:
 ```
 
 
-#### Cogltx: Applying bert to long texts (MemRecall) [`READ`]
+#### Cogltx: Applying bert to long texts (MemRecall)
 
 <p align="center">
   <img src="../../imgs/cogltx.png" width="800"></img>

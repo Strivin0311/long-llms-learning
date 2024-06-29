@@ -2,7 +2,7 @@
 *Here're some resources about Quantization for LLMs training and inference, deployment*
 
 
-#### QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models [`UNREAD`]
+#### QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models
 
 paper link: [here](https://arxiv.org/pdf/2309.14717)
 
@@ -16,7 +16,7 @@ citation:
 }
 ```
 
-#### Qlora: Efficient finetuning of quantized llms [`UNREAD`]
+#### Qlora: Efficient finetuning of quantized llms
 
 paper link: [here](https://arxiv.org/pdf/2305.14314)
 
@@ -31,7 +31,7 @@ citation:
 ```
 
 
-#### Llm. int8 (): 8-bit matrix multiplication for transformers at scale [`UNREAD`]
+#### Llm. int8 (): 8-bit matrix multiplication for transformers at scale
 
 paper link: [here](https://arxiv.org/pdf/2208.07339.pdf?trk=public_post_comment-text)
 
@@ -46,7 +46,7 @@ citation:
 ```
 
 
-#### Q8bert: Quantized 8bit bert [`READ`]
+#### Q8bert: Quantized 8bit bert
 
 paper link: [here](https://arxiv.org/pdf/1910.06188)
 

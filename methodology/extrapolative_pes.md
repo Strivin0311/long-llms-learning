@@ -97,7 +97,7 @@ $$
 
 ### Miscellaneous
 
-#### Linearized Relative Positional Encoding (LRPE) [`READ`]
+#### Linearized Relative Positional Encoding (LRPE)
 
 paper link: [here](https://arxiv.org/pdf/2307.09270.pdf)
 
@@ -119,7 +119,7 @@ citation:
 ### Empirical Study
 
 
-#### Transformer Upgrade Roadmap: 10. RoPE is a beta-base Encoding [`READ`]
+#### Transformer Upgrade Roadmap: 10. RoPE is a beta-base Encoding
 
 blog link: [here](https://spaces.ac.cn/archives/9675)
 
@@ -135,7 +135,7 @@ citation:
 ```
 
 
-#### Transformer Upgrade Roadmap: 7. Length Extrapolation and Local Attention [`READ`]
+#### Transformer Upgrade Roadmap: 7. Length Extrapolation and Local Attention
 
 blog link: [here](https://spaces.ac.cn/archives/9431)
 
@@ -151,7 +151,7 @@ citation:
 ```
 
 
-#### Exploring length generalization in large language models [`READ`]
+#### Exploring length generalization in large language models
 
 paper link: [here](https://proceedings.neurips.cc/paper_files/paper/2022/file/fb7451e43f9c1c35b774bcfad7a5714b-Paper-Conference.pdf)
 
@@ -167,7 +167,7 @@ citation:
 }s
 ```
 
-#### Roformer: Enhanced transformer with rotary position embedding [`READ`]
+#### Roformer: Enhanced transformer with rotary position embedding
 
 paper link: [here](https://arxiv.org/pdf/2104.09864)
 

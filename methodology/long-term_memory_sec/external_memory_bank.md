@@ -20,7 +20,7 @@ As a solution, another retrieval-augmented mechanisms decouples the model itself
 ### Cosine-Based Retrieval Criteria
 
 
-#### Creating large language model applications utilizing langchain: A primer on developing llm apps fast [`READ`]
+#### Creating large language model applications utilizing langchain: A primer on developing llm apps fast
 
 paper link: [here](https://www.researchgate.net/profile/Oguzhan-Topsakal/publication/372669736_Creating_Large_Language_Model_Applications_Utilizing_LangChain_A_Primer_on_Developing_LLM_Apps_Fast/links/64d114a840a524707ba4a419/Creating-Large-Language-Model-Applications-Utilizing-LangChain-A-Primer-on-Developing-LLM-Apps-Fast.pdf)
 
@@ -36,7 +36,7 @@ citation:
 ```
 
 
-#### LangChain: Building applications with LLMs through composability [`READ`]
+#### LangChain: Building applications with LLMs through composability
 
 github link: [here](https://github.com/langchain-ai/langchain)
 
@@ -64,7 +64,7 @@ citation:
 ### Heuristic Retrieval Criteria
 
 
-#### MemGPT- Towards LLMs as Operating Systems [`READ`]
+#### MemGPT- Towards LLMs as Operating Systems
 
 paper link: [here](https://arxiv.org/pdf/2310.08560.pdf)
 
@@ -84,7 +84,7 @@ citation:
 }
 ```
 
-#### Unlimiformer: Long-range transformers with unlimited length input [`READ`]
+#### Unlimiformer: Long-range transformers with unlimited length input
 
 paper link: [here](https://arxiv.org/pdf/2305.01625.pdf)
 
@@ -99,7 +99,7 @@ citation:
 ```
     
 
-#### RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text [`READ`]
+#### RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text
 
 paper link: [here](https://arxiv.org/pdf/2305.13304)
 
@@ -113,7 +113,7 @@ citation:
 }
 ```
 
-#### RecallM: An Architecture for Temporal Context Understanding and Question Answering [`READ`]
+#### RecallM: An Architecture for Temporal Context Understanding and Question Answering
 
 paper link: [here](https://arxiv.org/pdf/2307.02738)
 
@@ -128,7 +128,7 @@ citation:
 ```
 
 
-#### RET-LLM: Towards a General Read-Write Memory for Large Language Models [`READ`]
+#### RET-LLM: Towards a General Read-Write Memory for Large Language Models
 
 paper link: [here](https://arxiv.org/pdf/2305.14322)
 
@@ -143,7 +143,7 @@ citation:
 ```
 
 
-#### MemoryBank: Enhancing Large Language Models with Long-Term Memory (siliconFriend) [`READ`]
+#### MemoryBank: Enhancing Large Language Models with Long-Term Memory (siliconFriend)
 
 paper link: [here](https://arxiv.org/pdf/2305.10250)
 
@@ -158,7 +158,7 @@ citation:
 ```
 
 
-#### Improving language models by retrieving from trillions of tokens (RETRO) [`READ`]
+#### Improving language models by retrieving from trillions of tokens (RETRO)
 
 paper link: [here](https://proceedings.mlr.press/v162/borgeaud22a/borgeaud22a.pdf)
 
@@ -179,7 +179,7 @@ citation:
 ### Leanable Retrieval Criteria 
     
 
-#### Focused transformer: Contrastive training for context scaling [`READ`]
+#### Focused transformer: Contrastive training for context scaling
 
 <p align="center">
   <img src="../../imgs/focused_transformer.png" width="800"></img>
@@ -201,7 +201,7 @@ citation:
 ```
 
 
-#### Augmenting Language Models with Long-Term Memory (LongMem) [`READ`]
+#### Augmenting Language Models with Long-Term Memory (LongMem)
 
 paper link: [here](https://arxiv.org/pdf/2306.07174)
 
@@ -215,7 +215,7 @@ citation:
 }
 ```
 
-#### REALM: Retrieval augmented language model pre-training [`READ`]
+#### REALM: Retrieval augmented language model pre-training
 
 paper link: [here](http://proceedings.mlr.press/v119/guu20a/guu20a.pdf)
 

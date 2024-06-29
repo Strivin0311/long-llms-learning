@@ -25,7 +25,7 @@ $$
 
 ### Super Baseline
 
-#### Transformer Upgrade Roadmap: 7. Length Extrapolation and Local Attention [`READ`]
+#### Transformer Upgrade Roadmap: 7. Length Extrapolation and Local Attention
 
 $$
   \begin{align}
@@ -57,7 +57,7 @@ Su introduced a simple method in his blog where he utilizes a *super-baseline* a
 
 ### More Elaborate Designs
 
-#### Dissecting transformer length extrapolation via the lens of receptive field analysis (Sandwitch) [`READ`]
+#### Dissecting transformer length extrapolation via the lens of receptive field analysis (Sandwitch)
 
 $$
   \begin{align}
@@ -78,7 +78,7 @@ citation:
 }
 ```
 
-#### Kerple: Kernelized relative positional embedding for length extrapolation [`READ`]
+#### Kerple: Kernelized relative positional embedding for length extrapolation
 
 $$
   \begin{align}
@@ -104,7 +104,7 @@ citation:
 ```
 
 
-#### Train short, test long: Attention with linear biases enables input length extrapolation (Alibi) [`READ`]
+#### Train short, test long: Attention with linear biases enables input length extrapolation (Alibi)
 
 $$
   \begin{align}

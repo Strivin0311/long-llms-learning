@@ -2,7 +2,7 @@
 *Here're some resources about Specific Objectives for Long-context LLMs modeling*
 
 
-#### PRIMERA: Pyramid-based masked sentence pre-training for multi-document summarization (Entity Pyramid) [`READ`]
+#### PRIMERA: Pyramid-based masked sentence pre-training for multi-document summarization (Entity Pyramid)
 
 paper link: [here](https://arxiv.org/pdf/2110.08499)
 
@@ -18,7 +18,7 @@ citation:
 ```
 
 
-#### ERNIE-Doc: A retrospective long-document modeling transformer (Segment-Reordering) [`READ`]
+#### ERNIE-Doc: A retrospective long-document modeling transformer (Segment-Reordering)
 
 paper link: [here](https://arxiv.org/pdf/2012.15688)
 
@@ -34,7 +34,7 @@ citation:
 ```
 
 
-#### Pegasus: Pre-training with extracted gap-sentences for abstractive summarization (GSG) [`READ`]
+#### Pegasus: Pre-training with extracted gap-sentences for abstractive summarization (GSG)
 
 paper link: [here](http://proceedings.mlr.press/v119/zhang20ae/zhang20ae.pdf)
 
@@ -52,7 +52,7 @@ citation:
 ```
 
 
-#### A divide-and-conquer approach to the summarization of long documents (DANCE) [`READ`]
+#### A divide-and-conquer approach to the summarization of long documents (DANCE)
 
 paper link: [here](https://arxiv.org/pdf/2004.06190)
 
@@ -71,7 +71,7 @@ citation:
 ```
 
 
-#### Xlnet: Generalized autoregressive pretraining for language understanding [`READ`]
+#### Xlnet: Generalized autoregressive pretraining for language understanding
 
 paper link: [here](https://proceedings.neurips.cc/paper/2019/file/dc6a7e655d7e5840e66733e9ee67cc69-Paper.pdf)
 

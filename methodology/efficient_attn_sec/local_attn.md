@@ -31,7 +31,7 @@ Considering the significance of local context in certain applications, various a
 ### Block-wise Attention
 
 
-#### LongLoRA: Efficient fine-tuning of long-context large language models [`READ`]
+#### LongLoRA: Efficient fine-tuning of long-context large language models
 
 <p align="center">
   <img src="../../imgs/S2_attn.png" width="200"></img>
@@ -51,7 +51,7 @@ citation:
     
 
 
-#### Landmark Attention: Random-Access Infinite Context Length for Transformers [`READ`]
+#### Landmark Attention: Random-Access Infinite Context Length for Transformers
 
 paper link: [here](https://arxiv.org/pdf/2305.16300)
 
@@ -67,7 +67,7 @@ citation:
     
 
 
-#### Efficient long sequence modeling via state space augmented transformer (SPADE) [`READ`]
+#### Efficient long sequence modeling via state space augmented transformer (SPADE)
 
 paper link: [here](https://arxiv.org/pdf/2212.08136)
 
@@ -82,7 +82,7 @@ citation:
 ```
 
 
-#### Mega: Moving Average Equipped Gated Attention [`READ`]
+#### Mega: Moving Average Equipped Gated Attention
 
 paper link: [here](https://arxiv.org/pdf/2209.10655.pdf)
 
@@ -99,7 +99,7 @@ citation:
 ```
 
 
-#### Sparse sinkhorn attention [`READ`]
+#### Sparse sinkhorn attention
 
 paper link: [here](http://proceedings.mlr.press/v119/tay20a/tay20a.pdf)
 
@@ -116,7 +116,7 @@ citation:
 ```
     
 
-#### Blockwise self-attention for long document understanding (BlockBERT) [`READ`]
+#### Blockwise self-attention for long document understanding (BlockBERT)
 
 <p align="center">
   <img src="../../imgs/dense_attn.png" width="194"></img>
@@ -135,7 +135,7 @@ citation:
 }
 ```
 
-#### Bi-directional block self-attention for fast and memory-efficient sequence modeling (Bi-BloSAN) [`READ`]
+#### Bi-directional block self-attention for fast and memory-efficient sequence modeling (Bi-BloSAN)
 
 paper link: [here](https://arxiv.org/pdf/1804.00857)
 
@@ -152,7 +152,7 @@ citation:
 ### Sliding Window Attention
 
 
-#### Alternating Updates for Efficient Transformers [`READ`]
+#### Alternating Updates for Efficient Transformers
 
 paper link: [here](https://arxiv.org/pdf/2301.13310.pdf)
 
@@ -168,7 +168,7 @@ paper link: [here](https://arxiv.org/pdf/2301.13310.pdf)
 ```
 
 
-#### Funnel-transformer: Filtering out sequential redundancy for efficient language processing [`READ`]
+#### Funnel-transformer: Filtering out sequential redundancy for efficient language processing
 
 paper link: [here](https://proceedings.neurips.cc/paper/2020/file/2cd2915e69546904e4e5d4a2ac9e1652-Paper.pdf)
 
@@ -185,7 +185,7 @@ paper link: [here](https://proceedings.neurips.cc/paper/2020/file/2cd2915e695469
 ```
 
 
-#### Longformer: The long-document transformer [`READ`]
+#### Longformer: The long-document transformer
 
 <p align="center">
   <img src="../../imgs/sliding_window_attn.png" width="200"></img>
@@ -209,7 +209,7 @@ citation:
 ### Global-Local Hybird Attention
 
 
-#### LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning [`READ`]
+#### LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning
 
 <p align="center">
   <img src="../../imgs/longlm.png" width="800"></img>
@@ -229,7 +229,7 @@ citation:
 }
 ```
 
-#### Lm-infinite: Simple on-the-fly length generalization for large language models [`READ`]
+#### Lm-infinite: Simple on-the-fly length generalization for large language models
 
 paper link: [here](https://arxiv.org/pdf/2308.16137)
 
@@ -245,7 +245,7 @@ citation:
     
 
 
-#### Efficient streaming language models with attention sinks [`READ`]
+#### Efficient streaming language models with attention sinks
 
 <p align="center">
   <img src="../../imgs/attn_sink.png" width="200"></img>
@@ -266,7 +266,7 @@ citation:
 
 
 
-#### LongT5: Efficient text-to-text transformer for long sequences [`READ`]
+#### LongT5: Efficient text-to-text transformer for long sequences
 
 paper link: [here](https://arxiv.org/pdf/2112.07916)
 
@@ -281,7 +281,7 @@ citation:
 ```
 
 
-#### ETC: Encoding long and structured inputs in transformers [`READ`]
+#### ETC: Encoding long and structured inputs in transformers
 
 <p align="center">
   <img src="../../imgs/global_token_global_local_hybrid_attn.png" width="200"></img>
@@ -303,7 +303,7 @@ citation:
 ### LSH Attention
 
 
-#### Reformer: The efficient transformer [`READ`]
+#### Reformer: The efficient transformer
 
 paper link: [here](https://arxiv.org/pdf/2001.04451)
 

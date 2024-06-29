@@ -65,7 +65,7 @@ $$
 ### Low-Rank Approximation
 
 
-#### Linformer: Self-attention with linear complexity [`READ`]
+#### Linformer: Self-attention with linear complexity
 
 $$
 \begin{align}
@@ -88,7 +88,7 @@ citation:
 
 ### Nested Attention
 
-#### Luna: Linear unified nested attention [`READ`]
+#### Luna: Linear unified nested attention
 
 $$
 \begin{align}
@@ -115,7 +115,7 @@ citation:
 ### Kernelized Approximation
 
 
-#### Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation [`READ`]
+#### Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation
 
 <p align="center">
   <img src="../../imgs/primal_attn.png" width="800"></img>
@@ -134,7 +134,7 @@ paper link: [here](https://arxiv.org/pdf/2305.19798.pdf)
 }
 ```
 
-#### Fourierformer: Transformer meets generalized fourier integral theorem [`READ`]
+#### Fourierformer: Transformer meets generalized fourier integral theorem
 
 paper link: [here](https://proceedings.neurips.cc/paper_files/paper/2022/file/bc968adbdff4a2551649d464b83f264a-Paper-Conference.pdf)
 
@@ -152,7 +152,7 @@ citation:
 ```
 
 
-#### Random feature attention [`READ`]
+#### Random feature attention
 
 paper link: [here](https://arxiv.org/pdf/2103.02143)
 
@@ -167,7 +167,7 @@ citation:
 ```
 
 
-#### Rethinking attention with performers [`READ`]
+#### Rethinking attention with performers
 
 $$
 \begin{align}
@@ -189,7 +189,7 @@ citation:
 ```
 
 
-#### Transformers are rnns: Fast autoregressive transformers with linear attention [`READ`]
+#### Transformers are rnns: Fast autoregressive transformers with linear attention
 
 $$
 \begin{align}
@@ -216,7 +216,7 @@ citation:
 ### Sparse-Kernelized Hybrid
 
 
-#### Scatterbrain: Unifying sparse and low-rank attention approximation [`READ`]
+#### Scatterbrain: Unifying sparse and low-rank attention approximation
 
 $$
 \begin{align}

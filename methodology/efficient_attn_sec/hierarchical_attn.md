@@ -19,7 +19,7 @@ local attention for multi-scaled contextual receptive fields.
 ### Two-Level Hierarchy
 
 
-#### Hegel: Hypergraph transformer for long document summarization [`READ`]
+#### Hegel: Hypergraph transformer for long document summarization
 
 paper link: [here](https://arxiv.org/pdf/2210.04126)
 
@@ -34,7 +34,7 @@ citation:
 ```
 
 
-#### Hierarchical learning for generation with long source sequences [`READ`]
+#### Hierarchical learning for generation with long source sequences
 
 paper link: [here](https://arxiv.org/pdf/2104.07545)
 
@@ -48,7 +48,7 @@ citation:
 }
 ```
 
-#### Lite transformer with long-short range attention [`READ`]
+#### Lite transformer with long-short range attention
 
 paper link: [here](https://arxiv.org/pdf/2004.11886)
 
@@ -63,7 +63,7 @@ citation:
 ```
 
 
-#### Hierarchical transformers for long document classification (HAN) [`READ`]
+#### Hierarchical transformers for long document classification (HAN)
 
 paper link: [here](https://arxiv.org/pdf/1910.10781)
 
@@ -79,7 +79,7 @@ citation:
 }
 ```
 
-#### HIBERT: Document level pre-training of hierarchical bidirectional transformers for document summarization [`READ`]
+#### HIBERT: Document level pre-training of hierarchical bidirectional transformers for document summarization
 
 paper link: [here](https://arxiv.org/pdf/1905.06566)
 
@@ -93,7 +93,7 @@ citation:
 }
 ```
 
-#### Document-level neural machine translation with hierarchical attention networks [`READ`]
+#### Document-level neural machine translation with hierarchical attention networks
 
 paper link: [here](https://arxiv.org/pdf/1809.01576)
 
@@ -107,7 +107,7 @@ citation:
 }
 ```
 
-#### A discourse-aware attention model for abstractive summarization of long documents [`READ`]
+#### A discourse-aware attention model for abstractive summarization of long documents
 
 paper link: [here](https://arxiv.org/pdf/1804.05685)
 
@@ -126,7 +126,7 @@ citation:
 
 ### Multi-Level Hierarchy
 
-#### Combiner: Full attention transformer with sparse computation cost [`READ`]
+#### Combiner: Full attention transformer with sparse computation cost
 
 paper link: [here](https://proceedings.neurips.cc/paper/2021/file/bd4a6d0563e0604510989eb8f9ff71f5-Paper.pdf)
 
@@ -143,7 +143,7 @@ citation:
 ```
 
 
-#### H-transformer-1d: Fast one-dimensional hierarchical attention for sequences [`READ`]
+#### H-transformer-1d: Fast one-dimensional hierarchical attention for sequences
 
 paper link: [here](https://arxiv.org/pdf/2107.11906)
 
@@ -157,7 +157,7 @@ citation:
 }
 ```
 
-#### Bp-transformer: Modelling long-range context via binary partitioning (BPT) [`READ`]
+#### Bp-transformer: Modelling long-range context via binary partitioning (BPT)
 
 paper link: [here](https://arxiv.org/pdf/1911.04070)
 
@@ -172,7 +172,7 @@ citation:
 ```
 
 
-#### Adaptive attention span in transformers [`READ`]
+#### Adaptive attention span in transformers
 
 paper link: [here](https://arxiv.org/pdf/1905.07799)
 

@@ -75,7 +75,7 @@ $$
 ### Other Relevant Surveys
 
 
-#### Efficient Transformers: A Survey [`READ`]
+#### Efficient Transformers: A Survey
 
 paper link: [here](https://arxiv.org/pdf/2009.06732.pdf)
 
@@ -92,7 +92,7 @@ citation:
 ```
 
 
-#### Efficient attentions for long document summarization [`READ`]
+#### Efficient attentions for long document summarization
 
 paper link: [here](https://arxiv.org/pdf/2104.02112)
 

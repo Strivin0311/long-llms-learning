@@ -19,7 +19,7 @@ In comparison, these IO-aware attention mechanisms below collectively represent 
 ### Memory-Efficient Attention
 
 
-#### DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training (LightSeq) [`READ`]
+#### DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training (LightSeq)
 
 paper link: [here](https://arxiv.org/pdf/2310.03294)
 
@@ -39,7 +39,7 @@ citation:
 ```
 
 
-#### Self-attention Does Not Need Memory [`READ`]
+#### Self-attention Does Not Need Memory
 
 paper link: [here](https://arxiv.org/pdf/2112.05682)
 
@@ -55,7 +55,7 @@ citation:
 
 ### Flash Attention
 
-#### Is Flash Attention Stable? [`READ`]
+#### Is Flash Attention Stable?
 
 paper link: [here](https://arxiv.org/pdf/2405.02803)
 
@@ -73,7 +73,7 @@ citation:
 }
 ```
 
-#### Faster Causal Attention Over Large Sequences Through Sparse Flash Attention (SCFA) [`READ`]
+#### Faster Causal Attention Over Large Sequences Through Sparse Flash Attention (SCFA)
 
 paper link: [here](https://arxiv.org/pdf/2306.01160)
 
@@ -88,7 +88,7 @@ citation:
 ```
     
 
-#### Flashattention-2: Faster attention with better parallelism and work partitioning [`READ`]
+#### Flashattention-2: Faster attention with better parallelism and work partitioning
 
 
 paper link: [here](https://arxiv.org/pdf/2307.08691.pdf)
@@ -110,7 +110,7 @@ citation:
 ```
     
 
-#### Flashattention: Fast and memory-efficient exact attention with io-awareness [`READ`]
+#### Flashattention: Fast and memory-efficient exact attention with io-awareness
 
 $$
 \begin{align}
@@ -138,7 +138,7 @@ citation:
 ### Paged Attention
 
 
-#### Efficient memory management for large language model serving with pagedattention [`READ`]
+#### Efficient memory management for large language model serving with pagedattention
 
 paper link: [here](https://arxiv.org/pdf/2309.06180)
 
@@ -155,7 +155,7 @@ citation:
 ### Lightning Attention
 
 
-#### Linear Attention Sequence Parallelism (LASP) [`READ`]
+#### Linear Attention Sequence Parallelism (LASP)
 
 paper link: [here](https://arxiv.org/pdf/2404.02882)
 
@@ -176,7 +176,7 @@ citation:
 ```
 
 
-#### Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models [`READ`]
+#### Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models
 
 paper link: [here](https://arxiv.org/pdf/2401.04658.pdf)
 
@@ -194,7 +194,7 @@ citation:
 }
 ```
 
-#### TransNormerLLM: A Faster and Better Large Language Model with Improved TransNormer [`READ`]
+#### TransNormerLLM: A Faster and Better Large Language Model with Improved TransNormer
 
 paper link: [here](https://arxiv.org/pdf/2307.14995.pdf)
 

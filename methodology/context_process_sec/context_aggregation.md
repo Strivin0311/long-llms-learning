@@ -17,7 +17,7 @@ In contrast to [selection-based methods](./context_selection.md), some approache
 ### Fusion in Decoder (FiD)
 
 
-#### Efficient long-text understanding with short-text models (SLED) [`READ`]
+#### Efficient long-text understanding with short-text models (SLED)
 
 <p align="center">
   <img src="../../imgs/sled.png" width="800"></img>
@@ -40,7 +40,7 @@ citation:
 ```
 
 
-#### Leveraging passage retrieval with generative models for open domain question answering (FiD) [`READ`]
+#### Leveraging passage retrieval with generative models for open domain question answering (FiD)
 
 paper link: [here](https://arxiv.org/pdf/2007.01282)
 
@@ -59,7 +59,7 @@ citation:
 ### Map Reduce and Refinement
 
 
-#### LangChain: Building applications with LLMs through composability [`READ`]
+#### LangChain: Building applications with LLMs through composability
 
 github link: [here](https://github.com/langchain-ai/langchain)
 
@@ -88,7 +88,7 @@ citation:
 ### Parallel Context Windows
 
 
-#### NBCE: Handling Length in Context Expansion of LLM with Naive Bayes [`READ`]
+#### NBCE: Handling Length in Context Expansion of LLM with Naive Bayes
 
 $$
 \begin{align}
@@ -112,7 +112,7 @@ citation:
 ```
 
 
-#### Parallel context windows improve in-context learning of large language models [`READ`]
+#### Parallel context windows improve in-context learning of large language models
 
 <p align="center">
   <img src="../../imgs/pcw.png" width="700"></img>
@@ -133,7 +133,7 @@ citation:
 ```
 
 
-#### Structured prompting: Scaling in-context learning to 1,000 examples [`READ`]
+#### Structured prompting: Scaling in-context learning to 1,000 examples
 
 paper link: [here](https://arxiv.org/pdf/2212.06713)
 

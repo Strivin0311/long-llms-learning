@@ -21,7 +21,7 @@
 ### Scaling Strategies
 
 
-#### Effective Long-Context Scaling of Foundation Models [`READ`]
+#### Effective Long-Context Scaling of Foundation Models
 
 paper link: [here](https://arxiv.org/pdf/2309.16039.pdf)
 
@@ -38,7 +38,7 @@ citation:
 ```
 
 
-#### Giraffe: Adventures in expanding context lengths in llms (Power-Scaling) [`READ`]
+#### Giraffe: Adventures in expanding context lengths in llms (Power-Scaling)
 
 $$
 \begin{align}
@@ -59,7 +59,7 @@ citation:
 ```
 
 
-#### Yarn: Efficient context window extension of large language models [`READ`]
+#### Yarn: Efficient context window extension of large language models
 
 paper link: [here](https://arxiv.org/pdf/2309.00071)
 
@@ -75,7 +75,7 @@ citation:
     
 
 
-#### Add NTK-Aware interpolation "by parts" correction (NTK-by-parts) [`READ`]
+#### Add NTK-Aware interpolation "by parts" correction (NTK-by-parts)
 
 github pr link: [here](https://github.com/jquesnelle/yarn/pull/1)
 
@@ -91,7 +91,7 @@ citation:
 ```
 
 
-#### Transformer Upgrade Roadmap: 11. Taking beta-base Encoding to the Limit (NTK-mixed RoPE) [`READ`]
+#### Transformer Upgrade Roadmap: 11. Taking beta-base Encoding to the Limit (NTK-mixed RoPE)
 
 blog link: [here](https://spaces.ac.cn/archives/9706)
 
@@ -107,7 +107,7 @@ citation:
 ```
 
 
-#### Dynamically Scaled RoPE further increases performance of long context LLaMA with zero fine-tuning (Dynamic-NTK) [`READ`]
+#### Dynamically Scaled RoPE further increases performance of long context LLaMA with zero fine-tuning (Dynamic-NTK)
 
 blog link: [here](https://www.reddit.com/r/LocalLLaMA/comments/14mrgpr/dynamically_scaled_rope_further_increases/)
 
@@ -123,7 +123,7 @@ citation:
 ```
 
 
-#### NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation (NTK-RoPE) [`READ`]
+#### NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation (NTK-RoPE)
 
 $$
 \begin{align}
@@ -146,7 +146,7 @@ citation:
 ```
 
 
-#### Extending context window of large language models via positional interpolation (PI) [`READ`]
+#### Extending context window of large language models via positional interpolation (PI)
 
 $$
 \begin{align}
@@ -167,7 +167,7 @@ citation:
 ```
 
 
-#### A length-extrapolatable transformer (LEX / XPOS) [`READ`]
+#### A length-extrapolatable transformer (LEX / XPOS)
 
 $$
   \begin{align}
@@ -188,7 +188,7 @@ citation:
 }
 ```
 
-#### Permuteformer: Efficient relative position encoding for long sequences [`READ`]
+#### Permuteformer: Efficient relative position encoding for long sequences
 
 paper link: [here](https://arxiv.org/pdf/2109.02377)
 
@@ -206,7 +206,7 @@ citation:
 ### Truncation Strategies
 
 
-#### Giraffe: Adventures in expanding context lengths in llms (Basis Truncation) [`READ`]
+#### Giraffe: Adventures in expanding context lengths in llms (Basis Truncation)
 
 $$
 \begin{align}
@@ -231,7 +231,7 @@ citation:
 ```
 
 
-#### Transformer Upgrade Roadmap: 12. ReRoPE for Infinite Extrapolation? [`READ`]
+#### Transformer Upgrade Roadmap: 12. ReRoPE for Infinite Extrapolation?
 
 $$
 \begin{align}
@@ -262,7 +262,7 @@ citation:
 ### Rearrangement Strategies
 
 
-#### A Frustratingly Easy Improvement for Position Embeddings via Random Padding [`READ`]
+#### A Frustratingly Easy Improvement for Position Embeddings via Random Padding
 
 paper link: [here](https://arxiv.org/pdf/2305.04859)
 
@@ -276,7 +276,7 @@ citation:
 }
 ```
     
-#### Randomized Positional Encodings Boost Length Generalization of Transformers [`READ`]
+#### Randomized Positional Encodings Boost Length Generalization of Transformers
 
 paper link: [here](https://arxiv.org/pdf/2305.16843)
 
@@ -290,7 +290,7 @@ citation:
 }
 ```
 
-#### SHAPE: Shifted absolute position embedding for transformers [`READ`]
+#### SHAPE: Shifted absolute position embedding for transformers
 
 paper link: [here](https://arxiv.org/pdf/2109.05644)
 
@@ -307,7 +307,7 @@ citation:
 
 ### Miscellaneous
 
-#### CoCA: Fusing Position Embedding with Collinear Constrained Attention in Transformers for Long Context Window Extending [`READ`]
+#### CoCA: Fusing Position Embedding with Collinear Constrained Attention in Transformers for Long Context Window Extending
 
 paper link: [here](https://arxiv.org/pdf/2309.08646.pdf)
 

@@ -17,7 +17,7 @@ sequence length under the $L_{max}$ constraint. They aim to produce more condens
 
 ### Soft Compression
 
-#### Learning to compress prompts with gist token [`READ`]
+#### Learning to compress prompts with gist token
 
 <p align="center">
   <img src="../../imgs/gisting.png" width="800"></img>
@@ -38,7 +38,7 @@ citation:
 ```
 
 
-#### Adapting Language Models to Compress Contexts (AutoCompressor) [`READ`]
+#### Adapting Language Models to Compress Contexts (AutoCompressor)
 
 <p align="center">
   <img src="../../imgs/autocompressors.png" width="800"></img>
@@ -58,7 +58,7 @@ citation:
 ```
 
 
-#### Prompt Compression and Contrastive Conditioning for Controllability and Toxicity Reduction in Language Models [`READ`]
+#### Prompt Compression and Contrastive Conditioning for Controllability and Toxicity Reduction in Language Models
 
 paper link: [here](https://arxiv.org/pdf/2210.03162.pdf)
 
@@ -79,7 +79,7 @@ citation:
 ### Hard Compression
 
 
-#### Extending Context Window of Large Language Models via Semantic Compression [`READ`]
+#### Extending Context Window of Large Language Models via Semantic Compression
 
 paper link: [here](https://arxiv.org/pdf/2312.09571.pdf)
 
@@ -95,7 +95,7 @@ citation:
 ```
 
 
-#### Compressing context to enhance inference efficiency of large language models [`READ`]
+#### Compressing context to enhance inference efficiency of large language models
 
 <p align="center">
   <img src="../../imgs/selective_contexts.png" width="800"></img>
@@ -115,7 +115,7 @@ citation:
 ```
 
 
-#### Llmlingua: Compressing prompts for accelerated inference of large language models [`READ`]
+#### Llmlingua: Compressing prompts for accelerated inference of large language models
 
 <p align="center">
   <img src="../../imgs/LLMLingua.png" width="800"></img>

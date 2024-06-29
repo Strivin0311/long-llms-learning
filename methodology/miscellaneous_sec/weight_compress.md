@@ -24,7 +24,7 @@
 ### Weight Factorization
 
 
-#### Albert: A lite bert for self-supervised learning of language representations [`UNREAD`]
+#### Albert: A lite bert for self-supervised learning of language representations
 
 paper link: [here](https://arxiv.org/pdf/1909.11942.pdf)
 
@@ -43,7 +43,7 @@ citation:
 ### Weight Partitioning
 
 
-####  Efficiently scaling transformer inference [`READ`]
+####  Efficiently scaling transformer inference
 
 paper link: [here](https://proceedings.mlsys.org/paper_files/paper/2023/file/523f87e9d08e6071a3bbd150e6da40fb-Paper-mlsys2023.pdf)
 
@@ -63,7 +63,7 @@ citation:
 ### Weight Distillation
 
 
-#### Minilm: Deep self-attention distillation for task-agnostic compression of pre-trained transformers [`UNREAD`]
+#### Minilm: Deep self-attention distillation for task-agnostic compression of pre-trained transformers
 
 paper link: [here](https://proceedings.neurips.cc/paper/2020/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 

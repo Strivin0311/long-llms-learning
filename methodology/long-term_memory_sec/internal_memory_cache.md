@@ -29,7 +29,7 @@ To facilitate later equations, we assume that each segment has the same length $
 ### Segment-Level Recurrence
 
 
-#### Segatron: Segment-aware transformer for language modeling and understanding [`READ`]
+#### Segatron: Segment-aware transformer for language modeling and understanding
 
 paper link: [here](https://ojs.aaai.org/index.php/AAAI/article/download/17485/17292)
 
@@ -48,7 +48,7 @@ citation:
     
 
 
-#### Compressive transformers for long-range sequence modelling [`READ`]
+#### Compressive transformers for long-range sequence modelling
 
 $$
 \begin{align}
@@ -71,7 +71,7 @@ citation:
 ```
 
 
-#### Transformer-xl: Attentive language models beyond a fixed-length context [`READ`]
+#### Transformer-xl: Attentive language models beyond a fixed-length context
 
 $$
 \begin{align}
@@ -96,7 +96,7 @@ citation:
 ### Retrospective Recurrence
 
 
-#### Readtwice: Reading very large documents with memories [`READ`]
+#### Readtwice: Reading very large documents with memories
 
 paper link: [here](https://arxiv.org/pdf/2105.04241)
 
@@ -111,7 +111,7 @@ citation:
 ```
 
 
-#### Addressing some limitations of transformers with feedback memory [`READ`]
+#### Addressing some limitations of transformers with feedback memory
 
 paper link: [here](https://arxiv.org/pdf/2002.09402)
 
@@ -126,7 +126,7 @@ citation:
 ```
     
 
-#### ERNIE-Doc: A retrospective long-document modeling transformer [`READ`]
+#### ERNIE-Doc: A retrospective long-document modeling transformer
 
 $$
  \begin{align}
@@ -150,7 +150,7 @@ citation:
 ### Continuous-Signal Memory
 
 
-#### ∞-former: Infinite Memory Transformer [`READ`]
+#### ∞-former: Infinite Memory Transformer
 
 $$
  \begin{align}
@@ -175,7 +175,7 @@ citation:
 ### Alternate Cache Designs
 
 
-#### Scaling Transformer to 1M tokens and beyond with RMT [`READ`]
+#### Scaling Transformer to 1M tokens and beyond with RMT
 
 $$
 \begin{align}
@@ -197,7 +197,7 @@ citation:
 ```
 
 
-#### Memorizing transformers [`READ`]
+#### Memorizing transformers
 
 $$
 \begin{align}
@@ -219,7 +219,7 @@ citation:
 ```
 
 
-#### Memformer: A memory-augmented transformer for sequence modeling [`READ`]
+#### Memformer: A memory-augmented transformer for sequence modeling
 
 paper link: [here](https://arxiv.org/pdf/2010.06891)
 

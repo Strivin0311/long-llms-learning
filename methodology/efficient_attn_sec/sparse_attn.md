@@ -28,7 +28,7 @@ These methods aim to introduce a sparse attention mask, denoted as $M_{\mathcal{
 ### Fixed Sparsity Patterns
 
 
-#### Longnet: Scaling transformers to 1,000,000,000 tokens [`READ`]
+#### Longnet: Scaling transformers to 1,000,000,000 tokens
 
 paper link: [here](https://arxiv.org/pdf/2307.02486.pdf?trk=public_post_comment-text)
 
@@ -42,7 +42,7 @@ citation:
 }
 ```
 
-#### DeepSpeed Sparse Attention: Powering 10x longer sequences with 6x faster execution [`READ`]
+#### DeepSpeed Sparse Attention: Powering 10x longer sequences with 6x faster execution
 
 blog link: [here](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/)
 
@@ -57,7 +57,7 @@ citation:
 ```
 
 
-#### Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting (LogSparse) [`READ`]
+#### Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting (LogSparse)
 
 <p align="center">
   <img src="../../imgs/log_sparse_attn.png" width="200"></img>
@@ -77,7 +77,7 @@ citation:
 ```
 
 
-#### Generating long sequences with sparse transformers [`READ`]
+#### Generating long sequences with sparse transformers
 
 <p align="center">
   <img src="../../imgs/stride_sparse_attn.png" width="235"></img>
@@ -100,7 +100,7 @@ citation:
 ### Adaptive Sparsity Patterns
 
 
-#### Sparsebert: Rethinking the importance analysis in self-attention [`READ`]
+#### Sparsebert: Rethinking the importance analysis in self-attention
 
 paper link: [here](http://proceedings.mlr.press/v139/shi21a/shi21a.pdf)
 
@@ -118,7 +118,7 @@ citation:
     
 
 
-#### Not all memories are created equal: Learning to forget by expiring (Expire-Span) [`READ`]
+#### Not all memories are created equal: Learning to forget by expiring (Expire-Span)
 
 paper link: [here](http://proceedings.mlr.press/v139/sukhbaatar21a/sukhbaatar21a.pdf)
 
@@ -135,7 +135,7 @@ citation:
 ```
     
 
-#### Efficient content-based sparse attention with routing transformers [`READ`]
+#### Efficient content-based sparse attention with routing transformers
 
 paper link: [here](https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00353/1923932/tacl_a_00353.pdf)
 
@@ -158,7 +158,7 @@ citation:
 ### Graph Sparsification
 
 
-#### Big bird: Transformers for longer sequences [`READ`]
+#### Big bird: Transformers for longer sequences
 
 <p align="center">
   <img src="../../imgs/random_sparse_attn.png" width="172"></img>
@@ -180,7 +180,7 @@ citation:
 ```
     
 
-#### Star-transformer [`READ`]
+#### Star-transformer
 
 <p align="center">
   <img src="../../imgs/star_sparse_attn.png" width="200"></img>
