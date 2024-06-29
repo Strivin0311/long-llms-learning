@@ -13,7 +13,7 @@
 
 Positional Embeddings (PEs) are minute but essential in the Transformer, especially for NLP tasks.  Unfortunately, recent studies have highlighted a significant shortcoming of *length extrapolation* or *length generalization* ability (training the model on short sequences but can be well-performed on longer ones during inference) for Transformer-based language models. One of the reasons have been discovered in recent few years that the current wildly-used design for PEs are not extraploative. Recognizing the need to push the inference length boundary beyond $L_{max}$, the research community has made significant efforts in this direction recently.
 
-Notably, according to [this](#exploring-length-generalization-in-large-language-models-read) recent work, they have determined that *distractors* are the primary cause of failures in length generalization in the case of *parity* task. These issues, however, can be mitigated considerably through approaches such as *scratchpad prompting*. Nevertheless, in this section, our focus remains on the undeniable role that current PEs play in length generalization in more general scenarios.
+Notably, according to [this](#exploring-length-generalization-in-large-language-models recent work, they have determined that *distractors* are the primary cause of failures in length generalization in the case of *parity* task. These issues, however, can be mitigated considerably through approaches such as *scratchpad prompting*. Nevertheless, in this section, our focus remains on the undeniable role that current PEs play in length generalization in more general scenarios.
 
 
 ### Table of Contents
@@ -47,7 +47,7 @@ $$
 \end{align}
 $$
 
-* **RoPE**. Some variants have recently emerged, including trainable embeddings to learn an embedding mapping and relative embeddings based on relative positions. Among them, Rotary PE ([RoPE](#roformer-enhanced-transformer-with-rotary-position-embedding-read)) applies a rotation operation on a complex field (see the equation below) instead of an addition to $Q, K$ based on absolute positions, where it shares the same basis function as SinPE.
+* **RoPE**. Some variants have recently emerged, including trainable embeddings to learn an embedding mapping and relative embeddings based on relative positions. Among them, Rotary PE ([RoPE](#roformer-enhanced-transformer-with-rotary-position-embedding)) applies a rotation operation on a complex field (see the equation below) instead of an addition to $Q, K$ based on absolute positions, where it shares the same basis function as SinPE.
 
 $$
 \begin{align}
@@ -78,7 +78,7 @@ $$
 
 ### Enhancing Understanding
 
-* **Rethinking PEs as $\beta$-Encoding**. Su revisits the sine and cosine basis functions of SinPE and RoPE in his [blog](#transformer-upgrade-roadmap-10-rope-is-a-beta-base-encoding-read), considering them as approximated terms for the $\beta$-encoding system to represent any position number $n$, as shown in the equation below. This approach employs $\frac{d}{2}$ fixed $\beta$-bits, where $\beta := \theta^{-1} = base^{2/d}$ represents the power basis of the wavelength or period of the trigonometric basis functions, which increases as a geometric series $\lbrace \beta^i \rbrace_{i=0}^{d/2}$ with the dimension $i$ goes deeper. 
+* **Rethinking PEs as $\beta$-Encoding**. Su revisits the sine and cosine basis functions of SinPE and RoPE in his [blog](#transformer-upgrade-roadmap-10-rope-is-a-beta-base-encoding, considering them as approximated terms for the $\beta$-encoding system to represent any position number $n$, as shown in the equation below. This approach employs $\frac{d}{2}$ fixed $\beta$-bits, where $\beta := \theta^{-1} = base^{2/d}$ represents the power basis of the wavelength or period of the trigonometric basis functions, which increases as a geometric series $\lbrace \beta^i \rbrace_{i=0}^{d/2}$ with the dimension $i$ goes deeper. 
  
   To gain a deeper understanding of this concept, we can draw a comparison between the equation below and the format of SinPE, RoPE above. It becomes evident that  the $i$-th $\beta$-bit of the representation of $n$ involves the division of the $i$-th power of $\beta$, followed by some sort of periodical operations ($mod$ in $\beta$-encoding and $sin,cos$ in SinPE, RoPE).
 
@@ -91,7 +91,7 @@ $$
 * **Length Extrapolation Dilemma** Prior to the era of Transformers, RNN-based language models were trained on shorter sequences but were expected to generalize effectively to longer contexts, a phenomenon referred to as *length extrapolation* or *length generalization*. Unfortunately, recent studies have highlighted a significant shortcoming of *length extrapolation* ability for Transformer-based language models. This causes the insufficient context length limit during inference when applying to real-world applications.
 
   In the original Transformer paper, there is few discussion regarding the design insights or theoretical interpretation of their SinPE. This has led many researchers to question its necessity and effectiveness, especially the blame on the extrapolation deficit, which points to the same trigonometry-based RoPE as well. To understand the bad extrapolation caused by current trigonometric PEs, we investigate and summarize two insights from distint views as below:
-  * From a mathematical view, as Su explains in his [blog](#transformer-upgrade-roadmap-7-length-extrapolation-and-local-attention-read), extrapolation, which involves inferring the whole from local information, depends on the high-order **smoothness** of the function. However, to accommodate sufficient positional information, these PEs are designed as combinations of high-frequency oscillatory trigonometric basis functions. This choice makes it challenging for the models to generalize without specific learning during training stages. 
+  * From a mathematical view, as Su explains in his [blog](#transformer-upgrade-roadmap-7-length-extrapolation-and-local-attention, extrapolation, which involves inferring the whole from local information, depends on the high-order **smoothness** of the function. However, to accommodate sufficient positional information, these PEs are designed as combinations of high-frequency oscillatory trigonometric basis functions. This choice makes it challenging for the models to generalize without specific learning during training stages. 
   * From a training view, due to the wavelength or period of the basis functions increases exponentially, proportional to $\lbrace \beta^i \rbrace_{i=0}^{d/2}$, training samples constrained by currently supported $L_{max}$ are typically too short for the rear low-frequency dimensions to  span the entire periodic cycle. This suggests only a few dimensions perceive complete periodic information thus receiving sufficient training for extrapolation, and the boundary is defined as **critical dimension** (e.g. for Llama2-4k, the critical dimension is only 92). Consequently, direct extrapolation becomes prone to failure when relying on these poor-learned low-frequency components.
 
 

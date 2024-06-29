@@ -4,7 +4,7 @@
 
 ### Intro
 
-[RoPE](../extrapolative_pes.md#roformer-enhanced-transformer-with-rotary-position-embedding-read), is a widely-used positional encoding scheme utilized in popular LLMs such as Llama, GLM, PaLM. It offers advantages such as relative distance decay, training stability, compatibility with linear attention, and better length extrapolation capabilities compared to the traditional SinPE, as demonstrated in various experiments, albeit not that satisfactory. Therefore, several research works have aimed to extend RoPE using various strategies to enhance its length extrapolation capabilities. 
+[RoPE](../extrapolative_pes.md#roformer-enhanced-transformer-with-rotary-position-embedding), is a widely-used positional encoding scheme utilized in popular LLMs such as Llama, GLM, PaLM. It offers advantages such as relative distance decay, training stability, compatibility with linear attention, and better length extrapolation capabilities compared to the traditional SinPE, as demonstrated in various experiments, albeit not that satisfactory. Therefore, several research works have aimed to extend RoPE using various strategies to enhance its length extrapolation capabilities. 
 
 
 
