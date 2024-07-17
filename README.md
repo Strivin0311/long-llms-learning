@@ -30,6 +30,11 @@ Or you can further see how to implement llama attention module with flash-rerope
 
 ### Latest Works
 
+* [2024.07]
+  * [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/pdf/2407.08608), located [here](./methodology/efficient_attn_sec/ioaware_attn.md#flash-attention) in this repo.
+
+  * [MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention](https://arxiv.org/pdf/2407.02490v1), located [here](./methodology/efficient_attn_sec/sparse_attn.md#adaptive-sparsity-patterns) in this repo.
+
 * [2024.04] [Linear Attention Sequence Parallelism](https://arxiv.org/abs/2404.02882), located [here](./methodology/efficient_attn_sec/ioaware_attn.md#lightning-attention) in this repo.
 
 * [2024.02] [Data Engineering for Scaling Language Models to 128K Context](https://arxiv.org/abs/2402.10171), located [here](./methodology/miscellaneous.md#long-contenxt-training) in this repo.

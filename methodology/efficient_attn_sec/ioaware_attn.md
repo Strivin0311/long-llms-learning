@@ -55,6 +55,29 @@ citation:
 
 ### Flash Attention
 
+
+#### FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision
+
+paper link: [here](https://arxiv.org/pdf/2407.08608)
+
+blog link: [here](https://tridao.me/blog/2024/flash3/)
+
+github link: [here](https://github.com/Dao-AILab/flash-attention)
+
+citation:
+
+```bibtex
+@misc{shah2024flashattention3fastaccurateattention,
+      title={FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision}, 
+      author={Jay Shah and Ganesh Bikshandi and Ying Zhang and Vijay Thakkar and Pradeep Ramani and Tri Dao},
+      year={2024},
+      eprint={2407.08608},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.08608}, 
+}
+```
+
 #### Is Flash Attention Stable?
 
 paper link: [here](https://arxiv.org/pdf/2405.02803)

@@ -99,6 +99,26 @@ citation:
 
 ### Adaptive Sparsity Patterns
 
+#### MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention
+
+paper link: [here](https://arxiv.org/pdf/2407.02490v1)
+
+github link: [here](https://github.com/microsoft/MInference)
+
+citation:
+
+```bibtex
+@misc{jiang2024minference10acceleratingprefilling,
+      title={MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention}, 
+      author={Huiqiang Jiang and Yucheng Li and Chengruidong Zhang and Qianhui Wu and Xufang Luo and Surin Ahn and Zhenhua Han and Amir H. Abdi and Dongsheng Li and Chin-Yew Lin and Yuqing Yang and Lili Qiu},
+      year={2024},
+      eprint={2407.02490},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.02490}, 
+}
+```
+
 
 #### Sparsebert: Rethinking the importance analysis in self-attention
 
