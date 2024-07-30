@@ -64,6 +64,26 @@ citation:
 ### Heuristic Retrieval Criteria
 
 
+#### SGLang: Efficient Execution of Structured Language Model Programs (RadixAttention)
+
+paper link: [here](https://arxiv.org/pdf/2312.07104v2)
+
+github link: [here](https://github.com/sgl-project/sglang/)
+
+citation:
+
+```bibtex
+@misc{zheng2024sglangefficientexecutionstructured,
+      title={SGLang: Efficient Execution of Structured Language Model Programs}, 
+      author={Lianmin Zheng and Liangsheng Yin and Zhiqiang Xie and Chuyue Sun and Jeff Huang and Cody Hao Yu and Shiyi Cao and Christos Kozyrakis and Ion Stoica and Joseph E. Gonzalez and Clark Barrett and Ying Sheng},
+      year={2024},
+      eprint={2312.07104},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2312.07104}, 
+}
+```
+
 #### MemGPT- Towards LLMs as Operating Systems
 
 paper link: [here](https://arxiv.org/pdf/2310.08560.pdf)
