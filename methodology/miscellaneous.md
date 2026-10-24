@@ -39,5 +39,24 @@ citation:
 ```
 
 
+#### Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization (LongMab-PO)
+
+paper link: [here](https://arxiv.org/pdf/2508.13993)
+
+github link: [here](https://github.com/NEUIR/LongMab-PO)
+
+citation:
+
+```bibtex
+@inproceedings{duan-etal-2026-chunks,
+    title={Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context {LLM} Preference Optimization},
+    author={Shaohua Duan and Pengcheng Huang and Xinze Li and Zhenghao Liu and Xiaoyuan Yi and Yukun Yan and Shuo Wang and Yu Gu and Ge Yu and Maosong Sun},
+    booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+    year={2026},
+    url={https://aclanthology.org/2026.acl-long.161/}
+}
+```
+
+
 
     
